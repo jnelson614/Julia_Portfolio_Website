@@ -76,12 +76,13 @@ body{
 	text-align: center;
 	top:70px;
 	height: 50%;
+	padding-bottom: 2%;
 
 }
 
 #coverphotos a img{
 
-
+	border-radius: 5%;
 	display: inline-block;
 	margin:.5%;
 	max-width: 29.2%;
@@ -162,9 +163,9 @@ header h1{
 
 
 .main_nav{
-	margin-left: %;
+	margin-left: 0%;
 	margin-top: 24px;
-	width: 25%;
+	width: 30%;
 	float: left;
 
 }
@@ -260,7 +261,7 @@ h4{
 
 
 .mainarticle h4{
-	font-size: 1.1em;
+	font-size: .9em;
 	font-weight: bold;
 	padding: 0% 0% 3% 0%;
 
@@ -286,7 +287,14 @@ h4{
 .work_images img{
 
 	max-width: 100%;
-	padding-bottom: 1%;	
+	padding-bottom: 2%;	
+
+}
+
+.work_images{
+
+	max-width: 100%;
+	padding-bottom: 10%;	
 
 }
 
@@ -419,37 +427,63 @@ iframe{
 
 
 
+.header{
+	z-index: 100;
+	position:fixed;
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	opacity: .9;
 
+}
 
-
-
-@media screen and (max-width:1390px) {
+header h1{
+	position:relative;
+	margin-left: 0;
+	left:5%;
+	margin-top: 20px;
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: helvetica;
+	width: 20%;
+}
 
 .main_nav{
-	margin-left: 0%;
-	margin-top: 24px;
+	margin-left: 5%;
+	margin-top: 0px;
 	width: 25%;
-	float: left;
+	height:70px;
+	clear:both;
+
 
 }
 
 .main_nav ul li{
-	float: left;
-	padding-right: 15%;
+	
+	position:relative;
+	height:20px;
+	top:15px;
 
-
-}
-
-.main_nav ul li a{
-	font-size: 1.1em;
-	font-family: helvetica;
-	color:black;
-	text-decoration: none;
 }
 
 .main_nav ul li a:hover{
 	color:rgb(140, 140, 140);
 
+}
+
+#coverphotos{
+	top:90px;
+}
+
+
+
+@media screen and (max-width:1390px) {
+
+header h1{
+	width:90%;
+}
+header {
+	width:100%;
 }
 
 footer{
@@ -463,9 +497,21 @@ footer{
 
 /* Cover Photos */
 
+.header {
+	width:100%;
+	left:2%;
+	height:90px;
+
+}
+
+header h1{
+	width:90%;
+}
+
+
 #coverphotos a img{
 
-	max-width: 42%;
+	max-width: 27.8%;
 }
 
 #coverphotos{
@@ -474,57 +520,18 @@ footer{
 }
 
 
-.header{
-	height:70px;
-	background-color: white;
-	opacity: 1;
-	z-index: 100;
-}
 
-header h1{
-	top:50%;
-	font-size: 1.2em;
-	left:7%;
-	font-weight: bold;
-	font-family: helvetica;
-}
-
-/* Header Nav */
-
-.main_nav{
-	margin-left: 0%;
-	margin-top: 24px;
-	width: 25%;
-	float: left;
-
-}
-
-.main_nav ul li{
-	float: left;
-	padding-right: 15%;
-
-
-}
-
-.main_nav ul li a{
-	font-size: 1.1em;
-	font-family: helvetica;
-	color:black;
-	text-decoration: none;
-}
-
-.main_nav ul li a:hover{
-	color:rgb(140, 140, 140);
-
-}
 
 .section_float1{
 	width: 40%;
 	padding:1%;
 	position: relative;
 	left:6%;
-	top:80px;
+	top:100px;
 
+}
+.otherwork{
+	padding-top: 5px;
 }
 
 .otherwork aside h4{
@@ -539,15 +546,17 @@ header h1{
 	position: relative;
 	left:6%;
 	height: 26%;
-	top:100px;
+	top:120px;
 }
 
 .mainarticle h4{
-	font-size: 1em;
+	font-size: .9em;
+
 }
 
 .mainarticle p{
 	font-size: .8em;
+	padding: 0% 0% 2% 0%;
 }
 
 .section_float{
@@ -569,7 +578,7 @@ header h1{
 	padding:1%;
 	position: relative;
 	left:6%;
-	top:80px;
+	
 
 }
 
@@ -579,14 +588,14 @@ header h1{
 	position: relative;
 	left:6%;
 	height: 26%;
-	top:100px;
+	top:120px;
 }
 
 
 .section_float5{
 	float:right;
 	width:85%;
-	padding-top: 120px;
+	padding-top: 130px;
 	padding-right: 8%;
 }
 
@@ -644,17 +653,42 @@ footer{
 }
 
 
+/*****************   media queries   *************************/
+@media screen and (max-width:1140px) {
 
+
+header h1{
+	width:100%;
+}
+
+
+header {
+	width:100%;
+}
+
+.main_nav{
+	width:40%;
+}
 
 
 /*****************   media queries   *************************/
 @media screen and (max-width:1000px) {
 
+
+header h1{
+	width:90%;
+}
+
+
+header{
+	width:100%;
+}
+
 /* Cover Photos */
 
 #coverphotos a img{
 
-	max-width: 42%;
+	max-width: 86%;
 }
 
 #coverphotos{
@@ -663,172 +697,13 @@ footer{
 }
 
 
-.header{
-	height:70px;
-	background-color: white;
-	opacity: 1;
-	z-index: 100;
-}
 
-header h1{
-	top:40%;
-	font-size: 1.1em;
-	left:7%;
-	font-weight: bold;
-	font-family: helvetica;
-}
-
-/* Header Nav */
-
+/*****************   media queries   *************************/
+@media screen and (max-width:720px) {
 .main_nav{
-	margin-left: %;
-	margin-top: 24px;
-	width: 25%;
-	float: left;
-
+	width:100%;
 }
 
-.main_nav ul li{
-	float: left;
-	padding-right: 15%;
-
-
-}
-
-.main_nav ul li a{
-	font-size: 1.1em;
-	font-family: helvetica;
-	color:black;
-	text-decoration: none;
-}
-
-.main_nav ul li a:hover{
-	color:rgb(140, 140, 140);
-
-} 
-
-.section_float1{
-	width: 40%;
-	padding:1%;
-	position: relative;
-	left:6%;
-	top:80px;
-
-}
-
-.otherwork aside h4{
-	font-size: .9em;
-	font-weight: bold;
-	padding: 10% 0% 5% 0%;}
-
-.section_float2{
-
-	width: 85%;
-	padding:1%;
-	position: relative;
-	left:6%;
-	height: 26%;
-	top:100px;
-}
-
-.mainarticle h4{
-	font-size: 1em;
-}
-
-.mainarticle p{
-	font-size: 1em;
-}
-
-.section_float{
-	width:85%;
-	position: relative;
-	padding-right: 8%;
-	padding-top: 140px;
-	}
-
-.work_images{
-}
-
-
-
-
-
-.section_float3{
-	width: 85%;
-	padding:1%;
-	position: relative;
-	left:6%;
-	top:80px;
-
-}
-
-.section_float4{
-	width: 85%;
-	padding:1%;
-	position: relative;
-	left:6%;
-	height: 26%;
-	top:100px;
-}
-
-
-.section_float5{
-	float:right;
-	width:85%;
-	padding-top: 120px;
-	padding-right: 8%;
-}
-
-
-.info2 p{
-
-	font-size: .78em;
-	font-family: helvetica;
-	line-height: 140%;
-	color:black;
-}
-
-.info2 p a{
-	color:black;
-	text-decoration: none;
-}
-
-.info2 p a:hover{
-	color:rgb(140, 140, 140);
-}
-
-.info2 h4 {
-	font-family: helvetica;
-	font-size: .9em;
-	font-weight: bold;
-	padding: 0% 0% 2% 0%;
-
-}
-
-.findme a {
-	font-family: helvetica;
-	font-size: .78em;
-	line-height: 140%;
-	text-decoration: none;
-	color:black;
-	
-
-}
-
-.findme h4{
-	font-size: .9em;
-	font-weight: bold;
-	padding: 5% 0% 2% 0%;
-}
-
-.findme a:hover{
-	color:rgb(140, 140, 140);
-}
-
-
-footer{
-	left:2%;
-}
 
 }
 
@@ -837,6 +712,10 @@ footer{
 
 /*****************   media queries   *************************/
 @media screen and (max-width:580px) {
+
+header {
+	width:100%;
+}
 
 /* Cover Photos */
 
@@ -851,50 +730,7 @@ footer{
 }
 
 
-.header{
-	height:90px;
-	background-color: white;
-	opacity: 1;
-	z-index: 100;
-}
 
-header h1{
-	top:25%;
-	font-size: 1.1em;
-	left:7%;
-	font-weight: bold;
-	font-family: helvetica;
-}
-
-/* Header Nav */
-
-
-.main_nav{
-	margin-left: %;
-	margin-top: 24px;
-	width: 25%;
-	float: left;
-
-}
-
-.main_nav ul li{
-	float: left;
-	padding-right: 15%;
-
-
-}
-
-.main_nav ul li a{
-	font-size: 1.1em;
-	font-family: helvetica;
-	color:black;
-	text-decoration: none;
-}
-
-.main_nav ul li a:hover{
-	color:rgb(140, 140, 140);
-
-}
 
 .section_float1{
 	width: 50%;
