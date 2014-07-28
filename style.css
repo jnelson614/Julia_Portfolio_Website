@@ -225,18 +225,46 @@ h4{
 	line-height: 140%;
 	text-decoration: none;
 	color:black;
+	font-style: italic;
+
 	
 
 }
 
 .otherwork aside h4{
-	font-size: .9em;
+	font-size: 1em;
 	font-weight: bold;
 	padding: 30% 0% 5% 0%;
+
+}
+
+.otherwork  h4{
+	font-size: 1em;
+	font-weight: bold;
+	padding: 30% 0% 5% 0%;
+
 }
 
 .otherwork aside nav li a:hover{
 	color:rgb(140, 140, 140);
+
+
+}
+
+.otherwork a:hover{
+	color:rgb(140, 140, 140);
+
+
+}
+
+.otherwork a{
+	font-family: helvetica;
+	font-size: .78em;
+	line-height: 140%;
+	text-decoration: none;
+	color:black;
+	font-style: italic;
+	padding-top: 0px;
 }
 
 
@@ -251,7 +279,7 @@ h4{
 }
 
 .info h4 {
-	font-size: .9em;
+	font-size: 1em;
 	font-weight: bold;
 	padding: 0% 0% 5% 0%;
 
@@ -261,7 +289,7 @@ h4{
 
 
 .mainarticle h4{
-	font-size: .9em;
+	font-size: 1em;
 	font-weight: bold;
 	padding: 0% 0% 3% 0%;
 
@@ -277,6 +305,7 @@ h4{
 .mainarticle p a{
 	text-decoration: none;
 	color: black;
+	font-style: italic;
 
 }
 
@@ -497,6 +526,13 @@ footer{
 
 /* Cover Photos */
 
+.otherwork  h4{
+	font-size: 1em;
+	font-weight: bold;
+	padding: 5% 0% 1% 0%;
+
+}
+
 .header {
 	width:100%;
 	left:2%;
@@ -535,9 +571,9 @@ header h1{
 }
 
 .otherwork aside h4{
-	font-size: .9em;
+	padding: 5% 0% 3% 0%;
 	font-weight: bold;
-	padding: 10% 0% 5% 0%;}
+}
 
 .section_float2{
 
@@ -550,13 +586,12 @@ header h1{
 }
 
 .mainarticle h4{
-	font-size: .9em;
-
+	padding: 0% 0% 1% 0%;
 }
 
 .mainarticle p{
-	font-size: .8em;
-	padding: 0% 0% 2% 0%;
+
+
 }
 
 .section_float{
@@ -696,7 +731,43 @@ header{
 	top:95px;
 }
 
+.mainarticle p{
+	font-size: 1em;
+}
 
+.info p{
+	font-size: 1em;
+}
+
+.section_float1 article h4{
+	font-size: 1.1em;
+}
+
+.section_float3 article h4{
+	font-size: 1.1em;
+}
+
+.section_float4 article h4{
+	font-size: 1.1em;
+}
+
+.section_float2 article h4{
+	font-size: 1.1em;
+}
+
+.section_float1 .otherwork aside nav ul li a{
+	font-size: 1em;
+	font-style: italic;
+}
+
+.otherwork a{
+	font-family: helvetica;
+	font-size: 1em;
+	line-height: 140%;
+	text-decoration: none;
+	color:black;
+	font-style: italic;
+}
 
 /*****************   media queries   *************************/
 @media screen and (max-width:720px) {
@@ -705,6 +776,10 @@ header{
 }
 
 
+}
+
+.mainarticle p{
+	font-size: 1em;
 }
 
 header h1{
@@ -743,7 +818,9 @@ header h1{
 	font-size: 1.5em;
 }
 
-
+.mainarticle p{
+	font-size: 1em;
+}
 
 
 .main_nav{
@@ -804,13 +881,7 @@ header h1{
 	top:140px;
 }
 
-.mainarticle h4{
-	font-size: 1em;
-}
 
-.mainarticle p{
-	font-size: .8em;
-}
 
 .section_float{
 	width:85%;
