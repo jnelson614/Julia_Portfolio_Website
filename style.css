@@ -431,7 +431,7 @@ iframe{
 	z-index: 100;
 	position:fixed;
 	width: 100%;
-	height: 70px;
+	height: 90px;
 	background-color: white;
 	opacity: .9;
 
@@ -688,7 +688,7 @@ header{
 
 #coverphotos a img{
 
-	max-width: 86%;
+	max-width: 42%;
 }
 
 #coverphotos{
@@ -711,11 +711,36 @@ header{
 
 
 /*****************   media queries   *************************/
-@media screen and (max-width:580px) {
+@media screen and (max-width:640px) {
 
 header {
 	width:100%;
 }
+
+header h1{
+	font-size: 1.5em;
+}
+
+
+
+
+.main_nav{
+	text-align: center;
+padding-top: -10px;
+	width: 100%;
+	font-size: 1.3em;
+
+}
+
+.main_nav ul li{
+	text-align: center;
+
+}
+
+
+
+
+
 
 /* Cover Photos */
 
@@ -725,7 +750,6 @@ header {
 }
 
 #coverphotos{
-
 	top:95px;
 }
 
