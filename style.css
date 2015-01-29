@@ -538,7 +538,6 @@ footer{
 
 .header {
 	width:100%;
-	left:2%;
 	height:90px;
 
 }
@@ -684,9 +683,6 @@ header h1{
 }
 
 
-footer{
-	left:2%;
-}
 
 }
 
