@@ -378,7 +378,12 @@ iframe{
 	padding-right: 5%;
 }
 
-
+.section_float p{
+	padding-top: 200px;
+	font-family: helvetica;
+	font-weight: bold;
+	text-align: center;
+}
 
 
 /*about page*/
