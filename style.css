@@ -380,6 +380,7 @@ iframe{
 
 .section_float p{
 	padding-top: 200px;
+	padding-bottom: 200px;
 	font-family: helvetica;
 	font-weight: bold;
 	text-align: center;
