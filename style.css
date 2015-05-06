@@ -386,6 +386,23 @@ iframe{
 	text-align: center;
 }
 
+.section_float h1{
+	padding-top: 20px;
+	padding-bottom: 200px;
+	font-family: helvetica;
+	font-size: .9em;
+	line-height: 140%;
+	
+}
+
+.section_float h2{
+	padding-top: 15px;
+	padding-bottom: 0px;
+	font-family: helvetica;
+	font-weight: bold;
+	text-align: center;
+}
+
 
 /*about page*/
 
