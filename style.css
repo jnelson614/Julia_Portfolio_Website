@@ -362,7 +362,7 @@ iframe{
 
 .section_float2{
 	float: left;
-	width: 27%;
+	width: 24%;
 	padding:1%;
 	position: fixed;
 	left:24%;
@@ -391,6 +391,7 @@ iframe{
 	padding-bottom: 200px;
 	font-family: helvetica;
 	font-size: .9em;
+	text-align: center;
 	line-height: 140%;
 	
 }
@@ -853,6 +854,7 @@ header h1{
 
 header {
 	width:100%;
+
 }
 
 header h1{
@@ -908,8 +910,6 @@ header h1{
 .otherwork aside nav li a {
 	line-height: 140%;
 }
-
-.info
 
 .section_float2{
 
