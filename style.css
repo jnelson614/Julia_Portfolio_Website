@@ -105,8 +105,7 @@ body{
 /* Feed Posts */
 
 #feedcoverphotos{
-	margin-left: 5%;
-	margin-right: 5%;
+	
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -122,12 +121,11 @@ body{
 }
 
 .post{
-	float: left;
-	margin-right: 7%;
-	margin-bottom: 4%;
-	border: 1px solid lightgray;
+width:25%;
+float: left;
 }
 
+/*
 .post h1{
 	padding-left: 20px;
 	padding-top: 20px;
@@ -154,7 +152,7 @@ body{
 	font-weight: lighter;
 	font-family: helvetica;
 }
-
+*/
 
 /* Footer all pages */
 
