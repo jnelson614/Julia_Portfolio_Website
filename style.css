@@ -121,8 +121,10 @@ body{
 }
 
 .post{
-width:25%;
-float: left;
+
+display: inline-block;
+	margin:-2px;
+	max-width: 33.3%;
 }
 
 /*
