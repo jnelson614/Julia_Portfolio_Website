@@ -102,6 +102,74 @@ body{
 
 
 
+/* Feed Posts */
+
+#feedcoverphotos{
+	margin-left: 5%;
+	margin-right: 5%;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top:90px;
+	height: 50%;
+	padding-bottom: 2%;
+}
+
+#feedcoverphotos a img{
+
+	margin-right:20px;
+	max-width: 100%;
+
+}
+
+#feedcoverphotos img{
+	opacity: 0.8;
+}
+
+#feedcoverphotos img:hover{
+	opacity: 1.0;
+
+
+}
+
+.post{
+	float: left;
+	margin-right: 7%;
+	margin-bottom: 4%;
+	height: 500px;
+	max-width: 25%;
+	border: 1px solid lightgray;
+}
+
+.post h1{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: left;
+	font-size: 1em;
+	font-weight: lighter;
+	font-family: helvetica;
+
+}
+
+.post h2{
+	padding-left: 20px;
+	text-align: left;
+	font-size: 1em;
+	font-weight: lighter;
+	font-family: helvetica;
+}
+
+.post h5{
+	padding-left: 20px;
+	padding-top: 10px;
+	text-align: left;
+	font-size: 1em;
+	font-weight: lighter;
+	font-family: helvetica;
+}
+
+
 /* Footer all pages */
 
 footer{
@@ -166,14 +234,14 @@ header h1{
 .main_nav{
 	margin-left: 0%;
 	margin-top: 24px;
-	width: 30%;
+	width: 35%;
 	float: left;
 
 }
 
 .main_nav ul li{
 	float: left;
-	padding-right: 15%;
+	padding-right: 10%;
 
 
 }
@@ -523,7 +591,7 @@ header h1{
 .main_nav{
 	margin-left: 5%;
 	margin-top: 0px;
-	width: 25%;
+	width: 30%;
 	height:70px;
 	clear:both;
 
@@ -840,7 +908,7 @@ header h1{
 	text-align: center;
 
 	width: 100%;
-	font-size: 1.3em;
+	font-size: 1.1em;
 
 }
 
@@ -874,7 +942,7 @@ header h1{
 	text-align: center;
 
 	width: 100%;
-	font-size: 1.3em;
+	font-size: 1.1em;
 
 }
 
