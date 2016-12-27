@@ -117,14 +117,19 @@ body{
 
 .instagram-media{
 	width: 100%;
+}
 
+.instagram-media a{
+	height:282px;
 }
 
 .post{
 
 display: inline-block;
-	margin:2px;
-	max-width: 32%;
+	margin:5px;
+	
+	margin-bottom: 10px;
+	max-width: 30%;
 }
 
 /*
