@@ -116,20 +116,8 @@ body{
 	padding-bottom: 2%;
 }
 
-#feedcoverphotos a img{
-
-	margin-right:20px;
-	max-width: 100%;
-
-}
-
-#feedcoverphotos img{
-	opacity: 0.8;
-}
-
-#feedcoverphotos img:hover{
-	opacity: 1.0;
-
+.instagram-media{
+	width: 100%;
 
 }
 
@@ -137,8 +125,6 @@ body{
 	float: left;
 	margin-right: 7%;
 	margin-bottom: 4%;
-	height: 500px;
-	max-width: 25%;
 	border: 1px solid lightgray;
 }
 
