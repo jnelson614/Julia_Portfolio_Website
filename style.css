@@ -126,10 +126,11 @@ body{
 .post{
 
 display: inline-block;
-	margin:5px;
-	
-	margin-bottom: 10px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom: 20px;
 	max-width: 30%;
+
 }
 
 /*
@@ -810,6 +811,11 @@ header {
 	width:40%;
 }
 
+.post{
+
+	max-width: 45%;
+
+}
 
 /*****************   media queries   *************************/
 @media screen and (max-width:1000px) {
@@ -941,7 +947,11 @@ header h1{
 	text-align: center;
 }
 
+.post{
 
+	max-width: 90%;
+
+}
 
 
 
