@@ -813,7 +813,7 @@ header {
 
 .post{
 
-	max-width: 45%;
+	min-width: 45%;
 
 }
 
@@ -949,7 +949,7 @@ header h1{
 
 .post{
 
-	max-width: 90%;
+	min-width: 90%;
 
 }
 
