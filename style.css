@@ -129,8 +129,12 @@ display: inline-block;
 	margin-left:10px;
 	margin-right:10px;
 	margin-bottom: 20px;
-	min-width: 45%;
+	min-width: 43%;
 
+}
+
+.ehInfo{
+	visibility: hidden;
 }
 
 /*
@@ -813,7 +817,7 @@ header {
 
 .post{
 
-	min-width: 90%;
+	min-width: 45%;
 
 }
 
@@ -915,7 +919,11 @@ header h1{
 	
 }
 
+.post{
 
+	min-width: 90%;
+
+}
 
 
 /*****************   media queries   *************************/
