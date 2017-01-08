@@ -318,6 +318,12 @@ h4{
 
 }
 
+.otherwork aside nav ul{
+	display: block;
+	height: 390px;
+	overflow: scroll;
+}
+
 .otherwork a:hover{
 	color:rgb(140, 140, 140);
 
