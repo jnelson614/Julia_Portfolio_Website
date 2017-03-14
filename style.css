@@ -312,6 +312,12 @@ h4{
 
 }
 
+.work_images h4{
+	font-size: 1em;
+	font-weight: bold;
+	padding: 4% 0% 5% 0%;
+}
+
 .otherwork aside nav li a:hover{
 	color:rgb(140, 140, 140);
 
