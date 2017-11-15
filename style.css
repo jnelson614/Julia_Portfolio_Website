@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -83,7 +83,7 @@ body{
 
 #coverphotos a img{
 
-	
+
 	display: inline-block;
 	margin:-2px;
 	max-width: 33.3%;
@@ -105,7 +105,7 @@ body{
 /* Feed Posts */
 
 #feedcoverphotos{
-	
+
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -168,7 +168,7 @@ display: inline-block;
 footer{
 	bottom:0;
 	clear: both;
-	
+
 	padding-top: .5%;
 	padding-bottom: .5%;
 	color: black;
@@ -186,7 +186,7 @@ footer p{
 	left:5%;
 	clear: both;
 	display: inline-block;
-	
+
 }
 
 
@@ -289,7 +289,7 @@ h4{
 
 	font-style: italic;
 
-	
+
 
 }
 
@@ -344,7 +344,7 @@ h4{
 
 .selected{
 	font-weight:bold;
-	
+
 }
 
 
@@ -404,7 +404,7 @@ h4{
 .work_images{
 
 	max-width: 100%;
-	margin-bottom: 10%;	
+	margin-bottom: 10%;
 
 }
 
@@ -441,7 +441,7 @@ iframe{
 }
 
 .section_float{
-	
+
 	float:left;
 	width:65%;
 	padding-left: 30%;
@@ -462,7 +462,7 @@ iframe{
 	font-size: .9em;
 	text-align: center;
 	line-height: 140%;
-	
+
 }
 
 .section_float h2{
@@ -537,7 +537,7 @@ iframe{
 	line-height: 140%;
 	text-decoration: none;
 	color:black;
-	
+
 
 }
 
@@ -594,7 +594,7 @@ header h1{
 }
 
 .main_nav ul li{
-	
+
 	position:relative;
 	height:20px;
 	top:15px;
@@ -661,7 +661,7 @@ header h1 {
 .section_float{
 	float: none;
 	padding-left: 30%;
-} 
+}
 
 .section_float2{
 float: none;
@@ -673,6 +673,10 @@ padding-left: 30%;
 
 
 @media screen and (max-width:1180px) {
+
+	iframe[height]{
+		height: 380px;
+	}
 
 /* Cover Photos */
 
@@ -792,7 +796,7 @@ header h1{
 	line-height: 140%;
 	text-decoration: none;
 	color:black;
-	
+
 
 }
 
@@ -853,6 +857,10 @@ header {
 
 /*****************   media queries   *************************/
 @media screen and (max-width:1040px) {
+
+	iframe[height]{
+		height: 380px;
+	}
 
 .main_nav{
 	margin-left: 0px;
@@ -936,6 +944,9 @@ padding-left: 5%;
 
 }
 
+iframe[height]{
+	height: 380px;
+}
 
 
 }
@@ -944,6 +955,19 @@ padding-left: 5%;
 
 /*****************   media queries   *************************/
 @media screen and (max-width:630px) {
+
+.header{
+	border-bottom: 1px solid lightgray;
+}
+
+#feedcoverphotos{
+	top:100px;
+}
+
+footer{
+	border-top: 1px solid lightgray;
+	padding-top: .7%;
+}
 
 .main_nav{
 	padding-left: 5%;
@@ -965,16 +989,15 @@ padding-left: 5%;
 	padding-top:105px;
 }
 
+iframe[height]{
+	height: 250px;
+}
+
+.section_float h1{
+	padding-bottom: 0;
+}
+
 }
 
 
 /* end of all wooooo */
-
-
-
-
-
-
-
-
-
