@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+
+		<title>My To Do List</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Today's To Do List</h1>
+				<form class="toDo" action="index.html" method="post">
+					<input id="listInput" type="text" name="toDo" value="" placeholder="Make Your List">
+					<a id="add" href="#">Add To List</a>
+				</form>
+			</header>
+
+			<section>
+				<ul id="list">
+
+				</ul>
+			</section>
+
+			<footer>
+				<h3>You Have <strong class="num">0</strong> to do's left.</h3>
+				<a class="clearList" href="#">Clear List</a>
+				<a class="clearCompleted" href="#">Clear Completed</a>
+			</footer>
+		</div><!-- #container -->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="index.js"></script>
+	</body>
+</html>

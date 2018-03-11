@@ -1,0 +1,1553 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+
+
+/******************************************
+/* Header
+/*******************************************/
+header {
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  left: 22%;
+  margin-top: 5%;
+  padding: 2.5%;
+  background: rgba(196, 0, 138, .7);
+  color: white;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  position: absolute;
+  left: 22%;
+  margin-top: 15%;
+  width: 600px;
+  line-height: 1.4;
+}
+
+.zelda {
+  left: 6%;
+  color:#C4008A;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 140px;
+  position: absolute;
+  text-transform: uppercase;
+
+}
+.flisiuk {
+  left: 16%;
+  margin-top: 7%;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 140px;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.tree-square {
+  position: absolute;
+  left: 11%;
+  margin-top: -11%;
+  width: 300px;
+  z-index: -2;
+}
+
+
+
+
+/******************************************
+/* First Look Section
+/*******************************************/
+
+.h3-1 {
+  margin-top: 870px;
+  z-index: 3;
+  width: 100px;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  z-index: 3;
+  text-transform: uppercase;
+  left: 2%;
+}
+
+              /*maybe use later?************************************
+              .first-text-1 {
+                margin-top: 1500px;
+                margin-left: 15%;
+                opacity: .6;
+              }
+              .first-text-2 {
+                margin-top: 1200px;
+                  margin-left: 30%;
+              }
+              .first-text-3 {
+                margin-top: 1200px;
+                  margin-left: 70%;
+              }
+              /******************************************/
+
+.port {
+  position: fixed;
+  width: 36px;
+  margin-top: 310px;
+  margin-left: 95.3%;
+  z-index: 4;
+}
+.linkd {
+  position: fixed;
+  width: 20px;
+  margin-top: 360px;
+  margin-left: 95.9%;
+  z-index: 4;
+}
+.fb {
+  position: fixed;
+  width: 25px;
+  margin-top: 400px;
+  margin-left: 95.79%;
+  z-index: 4;
+}
+
+.text {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  padding: 0;
+  z-index: 3;
+  opacity: .5;
+}
+
+.one {
+  margin-top: 1150px;
+  margin-left: 65%;
+}
+
+
+.first-look {
+  position: relative;
+  width: 100%;
+}
+
+.first-look-background {
+  position: absolute;
+  margin-top: 770px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.first-look-1, .first-look-2, .first-look-3 {
+  position: absolute;
+}
+
+.first-look-1 {
+  width: 25%;
+  margin-top: 880px;
+  left: 6%;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+.first-look-2 {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 40%;
+  margin-top: 700px;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+.first-look-3 {
+  right: 6%;
+  width: 25%;
+  margin-top: 425px;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+  position: absolute;
+  opacity: 0.1;
+  right: 2%;
+  width: 15%;
+  margin-top: 640px;
+}
+
+.video-1 {
+  position: absolute;
+  margin-top: 1650px;
+  z-index: 1;
+}
+
+
+/******************************************
+/* second Look
+/*******************************************/
+.second-look {
+  position: relative;
+  width: 100%;
+  top: 0px;
+}
+.pink {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 2500px;
+}
+
+.second-look-background {
+  position: absolute;
+  margin-top: 2830px;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 80% 80%;
+}
+.second-look-1 {
+  width: 25%;
+  margin-top: 2900px;
+  left: 6%;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
+
+.second-look-2 {
+  margin-left: auto;
+  margin-right: auto;
+  left: 29%;
+  width: 30%;
+  margin-top: 2900px;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
+
+.second-look-3 {
+  margin-left: auto;
+  margin-right: auto;
+  left: 15%;
+  width: 25%;
+  margin-top: 3000px;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
+
+.h3-2 {
+  margin-top: 2900px;
+  z-index: 3;
+  width: 100px;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  z-index: 3;
+  text-transform: uppercase;
+  left: 2%;
+}
+
+.video-2 {
+  position: absolute;
+  margin-top: 4180px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  z-index: 1;
+}
+
+
+
+/******************************************
+/* third look
+/*******************************************/
+
+
+.third-look {
+  position: relative;
+  width: 100%;
+}
+
+
+
+.third-look-background {
+  position: absolute;
+  margin-top: 4650px;
+  width: 100%;
+  opacity: .8;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 90% 100%;
+}
+
+.h3-3 {
+  margin-top: 5000px;
+  color: #3188ff;
+  z-index: 3;
+  width: 100px;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  z-index: 3;
+  text-transform: uppercase;
+  left: 2%;
+}
+
+.third-look-1 {
+  position: absolute;
+  margin-top: 5230px;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+
+}
+.third-look-2 {
+  position: absolute;
+  margin-top: 5100px;
+  width: 30%;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+  left: 0%;
+}
+.third-look-3 {
+  position: absolute;
+  margin-top: 5100px;
+
+  width: 30%;
+  right: 0;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+.video-3 {
+  position: absolute;
+  margin-top: 6000px;
+  z-index: 1;
+}
+
+
+
+
+
+
+/******************************************
+/* fourth Look
+/*******************************************/
+.fourth-look {
+  position: relative;
+  width: 100%;
+}
+
+.h3-4 {
+  margin-top: 6900px;
+  color: #f8437e;
+  z-index: 3;
+  width: 100px;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  z-index: 3;
+  text-transform: uppercase;
+  left: 2%;
+}
+
+.fourth-look-background {
+  position: absolute;
+  margin-top: 6510px;
+  width: 100%;
+  opacity: 0.2;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 80% 80%;
+}
+
+.fourth-look-1 {
+  position: absolute;
+  margin-top: 7170px;
+  width: 20%;
+  left: 4%;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.2);
+}
+.fourth-look-2 {
+  position: absolute;
+  margin-top: 7270px;
+  width: 20%;
+  left: 29.6%;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.2);
+}
+.fourth-look-3 {
+  position: absolute;
+  margin-top: 7170px;
+  width: 18%;
+  left: 55%;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.2);
+}
+.fourth-look-4 {
+  position: absolute;
+  margin-top: 7270px;
+  width: 18%;
+  right: 4%;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.2);
+}
+
+.video-4 {
+  position: absolute;
+  margin-top: 7900px;
+  z-index: 1;
+}
+
+/******************************************
+/* fifth look
+/*******************************************/
+.fifth-look {
+  position: relative;
+  width: 100%;
+}
+
+.fifth-look-background {
+  position: absolute;
+  margin-top: 8380px;
+  width: 100%;
+  opacity: .2;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 80% 80%;
+}
+
+.h3-5 {
+  margin-top: 8870px;
+  z-index: 3;
+  color: #cb1378;
+  width: 100px;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  z-index: 3;
+  text-transform: uppercase;
+  left: 2%;
+}
+
+.fifth-look-1 {
+  position: absolute;
+  margin-top: 9300px;
+  width: 20%;
+  left: 0;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+.fifth-look-2 {
+  position: absolute;
+  margin-top: 9300px;
+  width: 30%;
+  left: 18.5%;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+.fifth-look-3 {
+  position: absolute;
+  margin-top: 9300px;
+  width: 25%;
+  left: 46.5%;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+.fifth-look-4 {
+  position: absolute;
+  margin-top: 9300px;
+  width: 30%;
+  right: 0;
+  box-shadow: 2px 6px 25px 5px rgba(0, 0, 0, 0.4);
+}
+
+.video-5 {
+  position: absolute;
+  margin-top: 9800px;
+  z-index: 1;
+}
+
+/******************************************
+/* End Runway
+/*******************************************/
+
+.h3-final {
+  margin-top: 10630px;
+  color: black;
+  width: 200px;
+  transform: rotate(90deg);
+  transform-origin: left center;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  z-index: 3;
+  text-transform: uppercase;
+  left: 2%;
+}
+
+.end-runway {
+  position: relative;
+  width: 100%;
+}
+
+.all-looks {
+  position: absolute;
+  margin-top: 10670px;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.video-end-runway {
+  position: absolute;
+  margin-top: 11418px;
+}
+
+.music{
+  margin-top: 800px;
+  z-index: -5;
+}
+
+.push-down {
+  width: 100%;
+  position: absolute;
+  margin-top: 12300px;
+}
+
+
+/******************************************
+/* START MEDIA QUERIES
+/*******************************************/
+
+@media only screen and (max-width : 1400px) {
+  .title {
+    left: 28%;
+    margin-top: 6%;
+  }
+
+  .description {
+    left: 28%;
+    margin-top: 18%;
+    width: 600px;
+  }
+  .zelda {
+    left: 7%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 19%;
+    margin-top: 5%;
+  }
+
+  .tree-square {
+    left: 15%;
+    margin-top: -13%;
+  }
+
+  .logo {
+    right: 6%;
+  }
+
+  .second-look {
+    top: -50px;
+  }
+
+}
+@media only screen and (max-width : 1215px) {
+
+/* Header */
+  .title {
+    left: 31%;
+    margin-top: 6%;
+  }
+
+  .description {
+    left: 31%;
+    margin-top: 18%;
+    width: 600px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 23%;
+    margin-top: 6%;
+  }
+
+  .tree-square {
+    left: 17%;
+    margin-top: -13%;
+  }
+
+  .logo {
+    right: 6%;
+  }
+
+/* second look */
+  .second-look {
+    top: -150px;
+  }
+  .second-look .h3-2 {
+    margin-top: 2910px;
+  }
+/* Third look */
+  .h3-final {
+    margin-top: 10580px;
+  }
+
+  .third-look .third-look-background {
+    margin-top: 4450px;
+  }
+  .third-look .h3-3 {
+    margin-top: 4790px;
+  }
+
+  .fourth-look .h3-4 {
+    margin-top: 6850px;
+  }
+  .fourth-look .fourth-look-background {
+    margin-top: 6500px;
+  }
+
+  .fifth-look .h3-5 {
+    margin-top: 8670px;
+  }
+  .fifth-look .fifth-look-background {
+    margin-top: 8180px;
+  }
+  .video-5 {
+    margin-top: 9700px;
+  }
+
+  .h3-final {
+    margin-top: 10430px;
+  }
+
+  .all-looks {
+    margin-top: 10370px;
+  }
+  .video-end-runway {
+    margin-top: 11118px;
+  }
+  .push-down {
+    margin-top: 11800px;
+  }
+}
+
+
+
+@media only screen and (max-width : 1065px) {
+
+/* Header */
+  .title {
+    left: 35%;
+    margin-top: 12%;
+  }
+
+  .description {
+    left: 35%;
+    margin-top: 25%;
+    width: 500px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+  }
+  .flisiuk {
+    left: 25%;
+    margin-top: 7%;
+  }
+
+  .tree-square {
+    left: 17%;
+    margin-top: -13%;
+  }
+
+/* first look */
+  .first-look-3 {
+    width: 30%;
+    margin-top: 440px;
+  }
+
+/* second look */
+  .second-look {
+    top: -230px;
+  }
+  .first-look-1 {
+    width: 35%;
+  }
+
+  /* Third look */
+    .h3-final {
+      margin-top: 10580px;
+    }
+
+    .third-look .third-look-background {
+      margin-top: 4450px;
+    }
+    .third-look .h3-3 {
+      margin-top: 4790px;
+    }
+    .third-look .third-look-1 {
+      margin-top: 4730px;
+    }
+    .third-look .third-look-2 {
+      margin-top: 4800px;
+    }
+    .third-look .third-look-3 {
+      margin-top: 4800px;
+    }
+    .video-3 {
+      margin-top: 5700px;
+    }
+
+
+    .fourth-look .h3-4 {
+      margin-top: 6650px;
+    }
+    .fourth-look .fourth-look-background {
+      margin-top: 6070px;
+    }
+    .fourth-look-1 {
+      margin-top: 6770px;
+    }
+    .fourth-look-2 {
+      margin-top: 6870px;
+    }
+    .fourth-look-3 {
+      margin-top: 6770px;
+    }
+    .fourth-look-4 {
+      margin-top: 6870px;
+    }
+    .video-4 {
+      margin-top: 7550px;
+    }
+
+    .fifth-look .h3-5 {
+      margin-top: 8570px;
+    }
+    .fifth-look .fifth-look-background {
+      margin-top: 7880px;
+    }
+    .fifth-look-1 {
+      margin-top: 8900px;
+    }
+    .fifth-look-2 {
+      margin-top: 8900px;
+    }
+    .fifth-look-3 {
+      margin-top: 8900px;
+    }
+    .fifth-look-4 {
+      margin-top: 8900px;
+    }
+    .video-5 {
+      margin-top: 9400px;
+    }
+
+    .h3-final {
+      margin-top: 10030px;
+    }
+
+    .all-looks {
+      margin-top: 10070px;
+
+    }
+    .video-end-runway {
+      margin-top: 10817px;
+    }
+
+    .push-down {
+      margin-top: 11400px;
+    }
+}
+
+@media only screen and (max-width : 880px) {
+
+/* Header */
+  .title {
+    left: 35%;
+    margin-top: 20%;
+  }
+
+  .description {
+    left: 35%;
+    margin-top: 35%;
+    width: 390px;
+    font-size: 16px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+    font-size: 120px;
+  }
+  .flisiuk {
+    left: 25%;
+    margin-top: 15%;
+    font-size: 120px;
+  }
+
+  .tree-square {
+    left: 18%;
+    margin-top: -13%;
+  }
+
+  .logo {
+    width:20%;
+  }
+  .port {
+    width: 36px;
+    margin-left: 94%;
+  }
+  .linkd {
+    margin-left: 95%;
+  }
+  .fb {
+    margin-left: 94.8%;
+  }
+/* first look */
+  .first-look-1 {
+    width: 40%;
+    margin-top: 950px;
+  }
+  .first-look-2 {
+    width: 45%;
+    margin-top: 800px;
+  }
+  .first-look-3 {
+    width: 40%;
+    margin-top: 300px;
+  }
+
+/* second look */
+  .second-look {
+    top: -300px;
+  }
+
+  /* Third look */
+    .h3-final {
+      margin-top: 10580px;
+    }
+
+    .third-look .third-look-background {
+      margin-top: 4050px;
+    }
+    .third-look .h3-3 {
+      margin-top: 4490px;
+    }
+    .third-look .third-look-1 {
+      margin-top: 4730px;
+      width: 35%;
+    }
+    .third-look .third-look-2 {
+      margin-top: 4500px;
+      width: 35%;
+    }
+    .third-look .third-look-3 {
+      margin-top: 4800px;
+      width: 35%;
+    }
+    .video-3 {
+      margin-top: 5470px;
+    }
+
+
+    .fourth-look .h3-4 {
+      margin-top: 6050px;
+    }
+    .fourth-look .fourth-look-background {
+      margin-top: 5570px;
+    }
+    .fourth-look-1 {
+      margin-top: 6570px;
+      width: 25%;
+    }
+    .fourth-look-2 {
+      margin-top: 6670px;
+      width: 25%;
+      left: 26%;
+    }
+    .fourth-look-3 {
+      margin-top: 6570px;
+      width: 25%;
+      left: 49%;
+    }
+    .fourth-look-4 {
+      margin-top: 6670px;
+      width: 25%;
+    }
+    .video-4 {
+      margin-top: 7050px;
+    }
+
+    .fifth-look .h3-5 {
+      margin-top: 8000px;
+    }
+    .fifth-look .fifth-look-background {
+      margin-top: 7480px;
+    }
+    .fifth-look-1 {
+      margin-top: 7900px;
+      width: 30%;
+    }
+    .fifth-look-2 {
+      margin-top: 8100px;
+    }
+    .fifth-look-3 {
+      margin-top: 8500px;
+      width: 40%;
+    }
+    .fifth-look-4 {
+      margin-top: 8900px;
+      width: 40%;
+    }
+    .video-5 {
+      margin-top: 9000px;
+    }
+
+    .h3-final {
+      margin-top: 9530px;
+      display: none;
+    }
+
+    .all-looks {
+      margin-top: 9570px;
+      display: none;
+
+    }
+    .video-end-runway {
+      margin-top: 10317px;
+      display: none;
+    }
+    .push-down {
+      margin-top: 9500px;
+    }
+}
+
+
+@media only screen and (max-width : 700px) {
+
+/* Header */
+  .title {
+    left: 35%;
+    margin-top: 22%;
+    font-size: 25px;
+  }
+
+  .h3-1, .h3-2, .h3-3, .h3-4, .h3-5, .h3-final {
+    left: 3%;
+  }
+
+  .description {
+    left: 35%;
+    margin-top: 35%;
+    width: 270px;
+    font-size: 15px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+    font-size: 100px;
+  }
+  .flisiuk {
+    left: 25%;
+    margin-top: 20%;
+  }
+
+  .tree-square {
+    left: 18%;
+    margin-top: -13%;
+    width: 250px;
+  }
+
+  .logo {
+    width:28%;
+  }
+
+/* first look */
+  .first-look .h3-1{
+    top: -80px;
+  }
+
+  .first-look-1 {
+    width: 50%;
+    margin-top: 950px;
+  }
+  .first-look-2 {
+    width: 55%;
+    margin-top: 800px;
+  }
+  .first-look-3 {
+    width: 50%;
+    margin-top: 300px;
+  }
+
+/* second look */
+  .second-look-background {
+    object-position: 20% 80%;
+  }
+
+  .second-look {
+    top: -400px;
+  }
+  .second-look-1 {
+    left: 10%;
+    width: 45%;
+  }
+  .second-look-2 {
+    left: 45%;
+    width: 45%;
+    margin-top:3200px;
+  }
+  .second-look-3 {
+    left: 15%;
+    width: 45%;
+  }
+
+  /* Third look */
+    .h3-final {
+      margin-top: 10580px;
+    }
+
+    .third-look .third-look-background {
+      margin-top: 3850px;
+    }
+    .third-look .h3-3 {
+      margin-top: 4290px;
+    }
+    .third-look .third-look-1 {
+      margin-top: 4630px;
+      width: 40%;
+    }
+    .third-look .third-look-2 {
+      margin-top: 4200px;
+      width: 40%;
+    }
+    .third-look .third-look-3 {
+      margin-top: 4850px;
+      width: 40%;
+    }
+    .video-3 {
+      margin-top: 5370px;
+    }
+
+
+    .fourth-look .h3-4 {
+      margin-top: 5800px;
+    }
+    .fourth-look .fourth-look-background {
+      margin-top: 5370px;
+    }
+    .fourth-look-1 {
+      margin-top: 6300px;
+      width: 30%;
+    }
+    .fourth-look-2 {
+      margin-top: 6220px;
+      width: 30%;
+      left: 23%;
+    }
+    .fourth-look-3 {
+      margin-top: 6500px;
+      width: 30%;
+      left: 45%;
+    }
+    .fourth-look-4 {
+      margin-top: 6470px;
+      width: 30%;
+    }
+    .video-4 {
+      margin-top: 6900px;
+    }
+
+    .fifth-look .h3-5 {
+      margin-top: 7600px;
+    }
+    .fifth-look .fifth-look-background {
+      margin-top: 7080px;
+    }
+    .fifth-look-1 {
+      margin-top: 7700px;
+      width: 40%;
+    }
+    .fifth-look-2 {
+      margin-top: 7800px;
+      width: 40%
+    }
+    .fifth-look-3 {
+      margin-top: 8350px;
+      width: 40%;
+    }
+    .fifth-look-4 {
+      margin-top: 8600px;
+      width: 40%;
+    }
+    .video-5 {
+      margin-top: 8630px;
+    }
+
+    .h3-final {
+      margin-top: 9030px;
+    }
+
+    .all-looks {
+      margin-top: 9070px;
+
+    }
+    .video-end-runway {
+      margin-top: 9817px;
+    }
+
+    .push-down {
+      margin-top: 9050px;
+    }
+}
+
+
+@media only screen and (max-width : 575px) {
+
+/* Header */
+  .title {
+    left: 40%;
+    margin-top: 28%;
+    font-size: 25px;
+  }
+
+  .h3-1, .h3-2, .h3-3, .h3-4, .h3-5, .h3-final {
+    display:none;
+  }
+
+  .description {
+    left: 40%;
+    margin-top: 43%;
+    width: 230px;
+    font-size: 16px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+    font-size: 90px;
+  }
+  .flisiuk {
+    left: 27%;
+    margin-top: 20%;
+    font-size: 90px;
+  }
+
+  .tree-square {
+    left: 25%;
+    margin-top: -13%;
+    width: 240px;
+  }
+
+  .logo {
+    width:25%;
+    right: 12%;
+  }
+
+  .port {
+    width: 36px;
+    margin-top: 610px;
+    margin-left: 89%;
+  }
+  .linkd {
+    margin-top: 660px;
+    margin-left: 90.8%;
+  }
+  .fb {
+    margin-top: 700px;
+    margin-left: 90.1%;
+  }
+  /* second look */
+    .pink{
+      top: 2600px;
+    }
+    .second-look {
+      top: -470px;
+    }
+    .second-look-1 {
+      left: 10%;
+      width: 65%;
+    }
+    .second-look-2 {
+      left: 30%;
+      width: 60%;
+    }
+    .second-look-3 {
+      left: 10%;
+      width: 65%;
+      margin-top: 3100px;
+    }
+
+    /* Third look */
+      .h3-final {
+        margin-top: 10580px;
+      }
+
+      .third-look .third-look-background {
+        margin-top: 3850px;
+      }
+
+      .third-look .third-look-1 {
+        margin-top: 4630px;
+        width: 50%;
+      }
+      .third-look .third-look-2 {
+        margin-top: 4000px;
+        width: 50%;
+      }
+      .third-look .third-look-3 {
+        margin-top: 4850px;
+        width: 50%;
+      }
+      .video-3 {
+        margin-top: 5370px;
+      }
+
+
+      .fourth-look .h3-4 {
+        margin-top: 5800px;
+      }
+      .fourth-look .fourth-look-background {
+        margin-top: 5370px;
+      }
+      .fourth-look-1 {
+        margin-top: 6330px;
+        width: 43%;
+        left: 5%;
+      }
+      .fourth-look-2 {
+        margin-top: 6120px;
+        width: 43%;
+        left: 5%;
+      }
+      .fourth-look-3 {
+        margin-top: 6500px;
+        width: 43%;
+        right: 5%;
+        left: auto;
+      }
+      .fourth-look-4 {
+        margin-top: 6230px;
+        width: 43%;
+        right: 5%;
+      }
+      .video-4 {
+        margin-top: 6900px;
+      }
+
+      .fifth-look .h3-5 {
+        margin-top: 7600px;
+      }
+      .fifth-look .fifth-look-background {
+        margin-top: 7080px;
+      }
+      .fifth-look-1 {
+        margin-top: 7450px;
+        width: 60%;
+      }
+      .fifth-look-2 {
+        margin-top: 7700px;
+        width: 60%;
+        left: 10%;
+      }
+      .fifth-look-3 {
+        margin-top: 8350px;
+        width: 70%;
+        right: 10%;
+        left: auto;
+      }
+      .fifth-look-4 {
+        margin-top: 8650px;
+        width: 60%;
+      }
+      .video-5 {
+        margin-top: 8630px;
+      }
+
+      .h3-final {
+        margin-top: 9030px;
+      }
+
+      .all-looks {
+        margin-top: 8870px;
+
+      }
+      .video-end-runway {
+        margin-top: 9617px;
+      }
+
+      .push-down {
+        margin-top: 8950px;
+      }
+}
+
+@media only screen and (max-width : 450px) {
+
+/* Header */
+  .title {
+    left: 37%;
+    margin-top: 34.5%;
+    font-size: 20px;
+  }
+
+  .description {
+    left: 37%;
+    margin-top: 50%;
+    width: 230px;
+    font-size: 15px;
+  }
+  .zelda {
+    left: 10%;
+    margin-top: 0%;
+    font-size: 80px;
+  }
+  .flisiuk {
+    left: 27%;
+    margin-top: 20%;
+    font-size: 80px;
+  }
+
+  .tree-square {
+    left: 25%;
+    margin-top: -13%;
+    width: 200px;
+  }
+
+  .logo {
+    width:25%;
+    right: 12%;
+  }
+
+  .port {
+    width: 36px;
+    margin-top: 610px;
+    margin-left: 89%;
+  }
+  .linkd {
+    margin-top: 660px;
+    margin-left: 90.8%;
+  }
+  .fb {
+    margin-top: 700px;
+    margin-left: 90.1%;
+  }
+
+  .first-look .first-look-1 {
+    width: 70%;
+  }
+  .first-look .first-look-2 {
+    width: 70%;
+    margin-top: 835px;
+  }
+  .first-look .first-look-3 {
+    width: 70%;
+  }
+
+/* second look */
+  .pink{
+    top: 2700px;
+  }
+  .second-look {
+    top: -560px;
+  }
+  .second-look-1 {
+    left: 10%;
+    width: 80%;
+  }
+  .second-look-2 {
+    left: 20%;
+    width: 60%;
+  }
+  .second-look-3 {
+    left: 10%;
+    width: 80%;
+  }
+
+
+
+  .third-look .third-look-background {
+    margin-top: 3750px;
+  }
+
+  .third-look .third-look-1 {
+    margin-top: 4300px;
+    width: 70%;
+    z-index: 3;
+  }
+  .third-look .third-look-2 {
+    margin-top: 3900px;
+    width: 70%;
+  }
+  .third-look .third-look-3 {
+    margin-top: 4700px;
+    width: 70%;
+  }
+  .video-3 {
+    margin-top: 5270px;
+  }
+
+  .fourth-look-1 {
+    margin-top: 6130px;
+    width: 43%;
+    left: 5%;
+  }
+  .fourth-look-2 {
+    margin-top: 5920px;
+    width: 43%;
+    left: 5%;
+  }
+  .fourth-look-3 {
+    margin-top: 6300px;
+    width: 43%;
+    right: 5%;
+    left: auto;
+  }
+  .fourth-look-4 {
+    margin-top: 6030px;
+    width: 43%;
+    right: 5%;
+  }
+  .video-4 {
+    margin-top: 6700px;
+  }
+
+  .fifth-look .fifth-look-background {
+    margin-top: 6880px;
+  }
+  .fifth-look-1 {
+    margin-top: 7250px;
+    width: 60%;
+  }
+  .fifth-look-2 {
+    margin-top: 7500px;
+    width: 60%;
+    left: 10%;
+  }
+  .fifth-look-3 {
+    margin-top: 8050px;
+    width: 70%;
+    right: 10%;
+    left: auto;
+  }
+  .fifth-look-4 {
+    margin-top: 8450px;
+    width: 60%;
+  }
+  .video-5 {
+    margin-top: 8430px;
+  }
+
+  .h3-final {
+    margin-top: 8930px;
+  }
+
+  .all-looks {
+    margin-top: 8670px;
+
+  }
+  .video-end-runway {
+    margin-top: 9417px;
+  }
+
+  .push-down {
+    margin-top: 8750px;
+  }
+
+}
