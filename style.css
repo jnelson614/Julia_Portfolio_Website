@@ -612,6 +612,15 @@ about page
 	height: 80vh;
 	object-position: right;
 }
+.about-padding {
+	padding-top: 20px;
+}
+.icon-left-aligned {
+	width: 30px;
+	margin-bottom: 0px;
+	margin-right: 3px;
+	margin-left: 0;
+}
 /****************
 Footer all pages
 *****************/
