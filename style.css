@@ -107,6 +107,15 @@ GRID 12 col
 .center p {
 	text-align: left;
 }
+.center-text {
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+}
+.middle{
+	margin: 0 auto;
+	text-align: center;
+}
 .right {
 	float: right;
 }
@@ -179,6 +188,10 @@ p {
 	line-height: 140%;
   letter-spacing: 0.1px;
 }
+.p-pad-top {
+	padding-top: 15px;
+}
+
 
 .list-item {
 	font-size: 1em;
@@ -652,10 +665,6 @@ footer h6 {
 }
 .footer-text {
 	margin-top: -25px;
-}
-.middle{
-	margin: 0 auto;
-	text-align: center;
 }
 .emailMe{
 	padding: 6px 32px;
