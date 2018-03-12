@@ -726,6 +726,10 @@ MEDIA QUERIES
 	.col-6 {
 		width: 70%;
 	}
+	#instagram-posts .feed-col {
+		width: 100%;
+		margin: 0 auto;
+	}
 
 	.about-img {
 		height: 60vh;
@@ -733,6 +737,7 @@ MEDIA QUERIES
 	}
 	.about-col {
 		width: 100%;
+		padding-top: 7%;
 	}
 
 	.project-info-col-6 {
@@ -855,6 +860,9 @@ MEDIA QUERIES
 	#projects {
     padding-top: 10%;
 	}
+	#instagram-posts {
+		padding-top: 5%;
+	}
 	.col-6, .col-8, .col-10 {
 		width: 100%;
 	}
@@ -877,7 +885,9 @@ MEDIA QUERIES
 	.previous {
 		left: -45px;
 	}
-
+	.about-col {
+		padding-top: 13%;
+	}
 
 }
 
