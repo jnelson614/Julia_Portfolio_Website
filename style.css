@@ -615,15 +615,14 @@ about page
 .less {
 	padding-top: 1%;
 }
-.container {
-	background-color: rgba(255, 255, 255, 0.9);
-}
+
 .job-text {
 	font-size: 34px;
 }
 .about-img {
 	height: 80vh;
 	object-position: right;
+	object-fit: cover;
 }
 .about-padding {
 	padding-top: 20px;
@@ -634,6 +633,9 @@ about page
 	margin-right: 3px;
 	margin-left: 0;
 }
+
+
+
 /****************
 Footer all pages
 *****************/
@@ -737,12 +739,12 @@ MEDIA QUERIES
 	}
 
 	.about-img {
-		height: 60vh;
-		object-position: right;
+		height: 65vh;
+		object-position: 80% 50%;
+		object-fit: cover;
 	}
 	.about-col {
-		width: 100%;
-		padding-top: 7%;
+		width: 50%;
 	}
 
 	.project-info-col-6 {
@@ -764,6 +766,11 @@ MEDIA QUERIES
 
 	.col-6 {
 		width: 80%;
+	}
+	.about-img {
+		height: 30vh;
+		object-position: 80% 70%;
+		object-fit: cover;
 	}
 	.about-col {
 		width: 100%;
@@ -901,9 +908,11 @@ MEDIA QUERIES
 		left: -45px;
 	}
 	.about-col {
-		padding-top: 13%;
+		padding-top: 6%;
 	}
-
+	.job-text {
+		font-size: 1.9em;
+	}
 }
 
 @media screen and (max-width:440px) {
@@ -930,6 +939,15 @@ MEDIA QUERIES
     width: 28px;
 	}
 
+	.about-img {
+		height: 10vh;
+		object-position: 80% 70%;
+		object-fit: cover;
+		display: none;
+	}
+	.job-text {
+		font-size: 1.9em;
+	}
 
 }
 

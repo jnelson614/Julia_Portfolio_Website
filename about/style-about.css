@@ -69,23 +69,45 @@ body {
 	font-size: 16px;
 }
 
-.emoji {
-	margin: 0px 20px 0px 20px;
-	width: 30px;
-	position: absolute;
-	bottom: 0px;
+
+
+/****************
+Emoji Drop
+*****************/
+@-webkit-keyframes falling-emoji{
+   /*What style will make the emoji start at the top of the game container?*/
+   0% {
+     margin-top:0;
+    }
+    100% {
+      margin-top:96vh;
+    }
+}
+@keyframes falling-emoji{
+  0% {
+    margin-top:0;
+   }
+   100% {
+     margin-top:96vh;
+   }
 }
 
-
-h1 {
-  text-align: center;
-  font-weight: 400;
-  color: #2c3e50;
-  font-size: 36px;
+.emoji{
+		 width: auto;
+     height:30px;
+     position: absolute;
 }
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
-body {
-  background-color: #ecf0f1;
-  font-family: 'Roboto', sans-serif;
+.slow-falling-emoji,.medium-falling-emoji,.fast-falling-emoji{
+     -webkit-animation-name: falling-emoji /*What is the name of our animation?*/;
+     -webkit-animation-iteration-count: 1/*How many times do we want the animation to happen per emoji?*/;
+     -webkit-animation-duration: 2s/*How long should the slow falling emoji take to reach the bottom?*/;
+     -webkit-animation-timing-function: linear;
+     -webkit-animation-play-state: running;
+     -webkit-animation-fill-mode: forwards;
+}
+.medium-falling-emoji{
+     -webkit-animation-duration: 2s/*How long should the medium speed emoji take to reach the bottom?*/;
+}
+.fast-falling-emoji{
+     -webkit-animation-duration: 1s/*How long should the fast falling emoji take to reach the bottom?*/;
 }
