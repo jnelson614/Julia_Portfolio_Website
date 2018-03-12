@@ -39,7 +39,7 @@ $(document).ready(function(){
   });
 
   $(".hamburger").on("click", function(){
-      $(".header .main_nav").toggleClass("show");
+      $(".header .main_nav").toggleClass("show").animate({opacity:1}, "fast");
     });
 
 
