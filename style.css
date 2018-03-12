@@ -756,6 +756,26 @@ MEDIA QUERIES
 
 @media screen and (max-width:700px) {
 
+	.main_nav {
+		padding-right: 100px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+		background: white;
+		height: auto;
+		display: none;
+	}
+	.show {
+		display: block;
+	}
+	.main_nav ul li {
+    float: none;
+}
+	.main_nav ul li:first-child {
+    border-radius: 0;
+    padding-left: 10px;
+	}
+
 	.project-img h6{
 		max-width: 93%;
 		margin-bottom: 0px;
@@ -780,9 +800,36 @@ MEDIA QUERIES
 	.fullscreen-img {
 		height: auto;
 	}
+	.fullscreen-vid {
+		height: 50vh;
+	}
 	#scroll-section {
 		display: none;
 	}
+	.next {
+		right: -120px;
+	}
+	.previous {
+		left: -45px;
+	}
+
+	.hamburger{
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 0px;
+		right: 15px;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.line{
+		width: 25px;
+		height: 3px;
+		margin: 3px 0;
+		background: black;
+	}
+
 }
 
 @media screen and (max-width:440px) {

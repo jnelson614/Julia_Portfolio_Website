@@ -38,6 +38,9 @@ $(document).ready(function(){
     }
   });
 
+  $(".hamburger").on("click", function(){
+      $(".header .main_nav").toggleClass("show");
+    });
 
 
 });
