@@ -734,9 +734,17 @@ MEDIA QUERIES
 	.about-col {
 		width: 100%;
 	}
+
+	.project-info-col-6 {
+		width: 50%;
+	}
+	.disappear {
+		display: none;
+	}
 }
 
 @media screen and (max-width:800px) {
+
 
 	.col-6 {
 		width: 80%;
@@ -765,7 +773,16 @@ MEDIA QUERIES
 	.col-6, .col-8, .col-10 {
 		width: 100%;
 	}
-
+	.project-info-col-6 {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.fullscreen-img {
+		height: auto;
+	}
+	#scroll-section {
+		display: none;
+	}
 }
 
 @media screen and (max-width:440px) {
