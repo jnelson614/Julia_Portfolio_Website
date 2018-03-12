@@ -729,12 +729,6 @@ MEDIA QUERIES
 
 @media screen and (max-width:800px) {
 
-	.col-4 {
-		width: 50%;
-	}
-	.col-2 {
-		display: none;
-	}
 	.col-6 {
 		width: 80%;
 	}
