@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+//emoji drop, just add id="emoji-drop-game" to body
 var emojiArray = [
   'images/about/emoji/game.png',
   'images/about/emoji/superman.png',
