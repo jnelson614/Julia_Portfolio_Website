@@ -28,7 +28,7 @@ $(document).ready(function(){
     //if the user enters something
     if($("input").val() != "") {
       //add li to ul with buttons
-      $('#list').append($('<li>').append($("input").val() + '<span><a class="delete" href="#delete">Delete</a> <a class="edit" href="#edit">Edit</a></span>'));
+      $('#list').append($('<li>').append($("input").val() + '<span><a class="delete" href="#delete">Delete</a></span>'));
       //add classes to li to hide buttons
       $("span").addClass("hidden").addClass("btnStyle");        event.preventDefault();
       //clear the input after finishing
