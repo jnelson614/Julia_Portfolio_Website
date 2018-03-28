@@ -6,7 +6,7 @@ $(document).ready(function(){
         //to prevent blank li's added
         if($("input").val().length > 0){
           //build LI with input val & two buttons.
-          $('#list').append($('<li>').append('<span class="listItem">'+ $(this).val() + '</span> <span class="hidden btnStyle delete"><a href="#delete">Delete</a></span> <span class="edit hidden btnStyle"><a  href="#edit">Edit</a></span>'));
+          $('#list').append($('<li>').append('<span class="listItem">'+ $(this).val() + '</span> <span class="hidden btnStyle delete"><a href="#delete">Delete</a></span>'));    // add this after the other span to put edit back in:  <span class="edit hidden btnStyle"><a  href="#edit">Edit</a></span>
           event.preventDefault();
           $("input").val("");
           //add the number of not completed lis to the page.
