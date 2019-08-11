@@ -448,7 +448,7 @@ HomePage Project Photos On Hover
   top: 67%;
   bottom: 0px;
   left: 6%;
-  right: 0;
+  right: 0%;
   z-index: 1;
   align-items: right;
   display: flex;
@@ -474,6 +474,7 @@ HomePage Project Photos On Hover
 .project-img h6 {
   background-color: #423f3f;
   padding: 3px 3px;
+	max-width: 93%;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   -webkit-transition-delay: 0s;
