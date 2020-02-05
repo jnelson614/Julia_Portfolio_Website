@@ -992,15 +992,16 @@ h5 {
 	h6{
 		font-size: .9em;
 	}
+	h5{
+		font-size:1.2em;
+	}
 	p{
 		font-size: 1em;
 	}
 	.project-img {
     max-width: 100%;
 	}
-	.project-img figcaption {
-		top: 65%;
-	}
+
 	#projects {
     padding-top: 10%;
 	}
@@ -1019,6 +1020,12 @@ h5 {
 		height: 40vh;
 		object-position: 80% 70%;
 		object-fit: cover;
+	}
+	.next{
+		padding: 5px 20px 5px 15px;
+	}
+	.previous{
+		padding: 5px 15px 5px 20px;
 	}
 
 
