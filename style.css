@@ -48,7 +48,7 @@ table {
 }
 /* END RESET
 
-font-family: 'Assistant', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-family: 'Abril Fatface', cursive;
 
 */
@@ -127,39 +127,39 @@ Typography Base Style
 ***********************/
 
 h1 {
-	font-size: 1.3em;
-	font-weight: bold;
-	font-family: 'Assistant', sans-serif;
+	font-size: 1.2em;
+	font-weight: 700;
+	font-family: 'IBM Plex Sans', sans-serif;
 	color: black;
+	text-transform: uppercase;
 }
 
 h2 {
 	font-size: 2em;
-	font-weight: 300;
-	font-family: 'Assistant', sans-serif;
+	font-weight: 400;
+	font-family: 'IBM Plex Sans', sans-serif;
 	color: black;
 	padding-bottom: 20px;
 }
 
 h3 {
-	font-size: 1.5em;
-	font-weight: 100;
-	font-family: 'Assistant', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+	font-family: 'IBM Plex Sans', sans-serif;
 	color: black;
-	padding-bottom: 15px;
+	padding-bottom: 30px;
 }
 
 h4 {
 	font-size: 2.5em;
 	font-weight: 100;
-	font-family: 'Assistant', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 	color: black;
 }
 
 h5 {
-	font-size: 1.5em;
-	font-weight: 100;
-	font-family: 'Assistant', sans-serif;
+	font-size: 1.4em;
+	font-family: 'IBM Plex Sans', sans-serif;
 	text-transform: uppercase;
 	font-weight: 500;
 	margin-bottom: 5px;
@@ -168,36 +168,51 @@ h5 {
 
 h6 {
 	font-size: 1em;
-	font-weight: 100;
-	font-family: 'Assistant', sans-serif;
-	font-weight: normal;
+	font-weight: 400;
+	line-height: 150%;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 a {
-	font-size: .9em;
-	font-family: 'Assistant', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'IBM Plex Sans', sans-serif;
 	color: black;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
 p {
-	font-size: 1em;
+	font-weight: 300;
+	font-size: 1.2em;
 	color: black;
-	font-family: 'Assistant', sans-serif;
-	line-height: 140%;
-  letter-spacing: 0.1px;
+	font-family: 'IBM Plex serif', sans-serif;
+	line-height: 150%;
 }
+
+.emailMe p {
+	position: relative;
+	display: inline-block;
+	top: -1px;
+	color: white;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'IBM Plex Sans', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
 .p-pad-top {
 	padding-top: 15px;
 }
 
 
 .list-item {
-	font-size: 1em;
+	font-weight: 300;
+	font-size: 1.2em;
 	color: black;
-	font-family: 'Assistant', sans-serif;
-	line-height: 140%;
+	font-family: 'IBM Plex serif', sans-serif;
+	line-height: 150%;
 	text-align: left;
 	list-style-type: square;
 	list-style-position: inside;
@@ -215,7 +230,8 @@ Typography Page Placement
 header h1 {
 	float:left;
 	padding-left: 20px;
-	padding:4px 10px;
+	padding-top: 4px;
+	padding-bottom: 6px;
 	padding-right: 15px;
 	margin-top: 11px;
 	background: rgba(255, 255, 255, 0.5);
@@ -308,14 +324,12 @@ SCROLL
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   color: black;
-  font : 'Assistant', sans-serif;
+  font : 'IBM Plex Sans', sans-serif;
   text-decoration: none;
   transition: .3s;
 }
 
-.scroll a:hover {
-  opacity: .5;
-}
+
 
 #scroll-section a {
 	background: #ffffff73;
@@ -329,14 +343,24 @@ SCROLL
   width: 15px;
   height: 15px;
   margin-left: -9px;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: scroll 1.5s infinite;
   animation: scroll 1.5s infinite;
   box-sizing: border-box;
 }
+#scrolldown:hover a {
+	color:#058a8e;
+}
+#scrolldown:hover a span {
+	border-left: 2px solid #058a8e;
+	border-bottom: 2px solid #058a8e;
+}
+
+
+
 
 .white {
 	color: white;
@@ -360,7 +384,7 @@ NEXT / Last
 .previous {
 	position: fixed;
   bottom: 48px;
-	left: -35px;
+	left: -25px;
   transform: rotate(270deg);
   background: rgba(255, 255, 255, 0.5);
   padding: 7px 15px 7px 20px;
@@ -378,6 +402,7 @@ NEXT / Last
 	transform-origin: left top 0;
 	background: rgba(255, 255, 255, 0.5);
 	padding: 7px 20px 7px 15px;
+	margin-bottom: 10px;
 	border-radius: 20px 0px 0px 20px;
 	z-index: 4;
 }
@@ -402,18 +427,27 @@ Homepage all projects
 /**********************
 HomePage Project Photos On Hover
 ***********************/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+	padding: 8% 5% 5% 5%;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
 
 .project-img {
-  font-family: 'Assistant', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   position: relative;
   display: inline-block;
   overflow: hidden;
   margin: -2px;
-  min-width: 33.33%;
-  max-width: 33.33%;
   width: 100%;
   color: white;
-  font-size: 12px;
+  font-size: 1.1em;
 }
 
 .project-img * {
@@ -443,9 +477,10 @@ HomePage Project Photos On Hover
   backface-visibility: hidden;
 }
 
+
 .project-img figcaption {
   position: absolute;
-  top: 67%;
+  top: 0%;
   bottom: 0px;
   left: 6%;
   right: 0%;
@@ -460,7 +495,6 @@ HomePage Project Photos On Hover
 .project-img h6 {
   margin: 0;
   opacity: 0;
-  letter-spacing: 1px;
 }
 
 .project-img h5 {
@@ -468,11 +502,14 @@ HomePage Project Photos On Hover
   transform: translateY(100%);
   -webkit-transition-delay: 0.02s;
   transition-delay: 0.02s;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+	margin-left: -7%;
+	font-weight: bold;
 }
 
 .project-img h6 {
-  background-color: #423f3f;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+	color: black;
   padding: 3px 3px;
 	max-width: 93%;
   -webkit-transform: translateY(100%);
@@ -664,7 +701,6 @@ footer p{
 footer h6 {
 	margin-bottom: 20px;
 	color: white;
-	font-size: .9em;
 }
 .footer-text {
 	margin-top: -25px;
@@ -682,13 +718,7 @@ footer h6 {
 .emailMe:hover {
 	background: #3e9a9c;
 }
-.emailMe p {
-	position: relative;
-	display: inline-block;
-	top: -1px;
-	font-weight: 600;
-	color: white;
-}
+
 .emailMe .icon2 {
 	padding-top: 3px;
 	margin-right: 10px;
@@ -713,26 +743,58 @@ MEDIA QUERIES
 ******************************************************************************************
 ******************************************************************************************/
 
+@media screen and (max-width:1530px) {
+h5 {
+	font-size: 1.3em;
+}
+}
 
 @media screen and (max-width:1350px) {
-
-	.project-img h6{
-		max-width: 93%;
-		margin-bottom: 15px;
-		line-height: 1.2;
+	.grid-container {
+		  display: grid;
+		  grid-template-columns: auto auto;
+		}
+		.grid-item {
+		  background-color: rgba(255, 255, 255, 0.8);
+		  padding: 20px;
+		  font-size: 30px;
+		  text-align: center;
+		}
+		.project-img {
+	  font-size: 1.3em;
 	}
+}
 
+@media screen and (max-width:1220px) {
+	.project-img {
+		font-size: 1.2em;
+	}
+	.previous {
+		left: -35px;
+	}
+	.next {
+		right: -125px;
+	}
 }
 
 @media screen and (max-width:1000px) {
-
+	.grid-container {
+	  display: grid;
+	  grid-template-columns: auto;
+	}
+	.grid-item {
+	  background-color: rgba(255, 255, 255, 0.8);
+	  padding: 20px;
+	  text-align: center;
+	}
 	.project-img h6{
 		max-width: 93%;
 		margin-bottom: 15px;
 		line-height: 1.2;
 	}
+
 	.project-img {
-    max-width: 50%;
+		font-size: 1.4em;
 	}
 
 	.col-6 {
@@ -760,10 +822,18 @@ MEDIA QUERIES
 	#instagram-posts {
 		padding-top: 2%;
 	}
+	.previous {
+		left: -45px;
+	}
+	.next {
+		right: -135px;
+	}
 }
 
 @media screen and (max-width:800px) {
-
+	.project-img {
+		font-size: 1.3em;
+	}
 
 	.col-6 {
 		width: 80%;
@@ -877,9 +947,7 @@ MEDIA QUERIES
 	.project-img {
     max-width: 100%;
 	}
-	.project-img figcaption {
-		top: 72%;
-	}
+
 	#projects {
     padding-top: 10%;
 	}
@@ -902,11 +970,11 @@ MEDIA QUERIES
 	#scroll-section {
 		display: none;
 	}
-	.next {
-		right: -120px;
-	}
 	.previous {
-		left: -45px;
+		left: -52px;
+	}
+	.next {
+		right: -142px;
 	}
 	.about-col {
 		padding-top: 6%;
