@@ -1,251 +1,154 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<title>Julia Paranay's Portfolio Website</title>
-  	<link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  	<title>Julia Paranay</title>
     <meta name="viewport" content="width=device-width"> <!-- Corrects device width for Mobile -->
-    <!--
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800&display=swap" rel="stylesheet">
-  -->
+	  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
-	<body>
-  	<header class="header">
-			<div class="moveover">
-      <h1>Julia Paranay</h1>
-			<nav class='main_nav'>
-				<ul>
-					<li> <a class='work' href="index.html">Work</a> </li>
-          <li> <a class='Feed' href="feed.html">Feed</a> </li>
-          <li> <a class='About' href="about.html">About</a> </li>
-          <li> <a class='resume' href="images/resume/Resume_Julia_Paranay.pdf" target="_blank">Resume</a></li>
-				</ul>
-			</nav>
+  <body>
+  	<header-component></header-component>
+
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-10 offset-1 projects-push-down text-center">
+          <h2 class="display-4">I'm a User Experience Designer and Front End Developer living in Boston</h2>
+        </div>
       </div>
-      <div class="hamburger">
-				<div class="line"></div>
-				<div class="line"></div>
-				<div class="line"></div>
-			</div>
-		</header>
-    <main class="grid-container" id="projects">
-      <figure class="project-img grid-item"><img src="home-images/oneup_cover.jpg" alt="sample114"/>
-        <figcaption>
-          <h5>One Up</h5>
-          <h6>Augmented Reality, Mobile Design, Gamification</h6>
-        </figcaption><a href="oneup.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/july_cover.jpg" alt="sample116"/>
-        <figcaption>
-          <h5>July Camp</h5>
-          <h6>Freelance, E-Commerce, Web Design</h6>
-        </figcaption><a href="julycamp.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/feed_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Fidelity Investments Feed</h5>
-          <h6>Mobile Design, User Testing</h6>
-        </figcaption><a href="fidelityfeed.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/zelda-cover.jpg" alt="sample114"/>
-        <figcaption>
-          <h5>Parallax Fashion Runway</h5>
-          <h6>Parallax Web Development, Web Design,  Fashion, Freelance</h6>
-        </figcaption><a href="zelda.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/eathere_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Eat Here App</h5>
-          <h6>Mobile Design, User Research</h6>
-        </figcaption><a href="eathere.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/liaison-cover.jpg" alt="sample114"/>
-        <figcaption>
-          <h5>Degree Program Search</h5>
-          <h6>Web Design, Application Re-Design, Style Guide Creation</h6>
-        </figcaption><a href="liaison.html"></a>
-      </figure>
+      <!-- Three Projects Per Row -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+          <figure class="project-img grid-item"><img src="home-images/feed_cover.jpg" alt="sample115"/>
+            <figcaption>
+              <h5>Fidelity Investments Feed</h5>
+              <h6>Mobile Design, User Testing</h6>
+            </figcaption><a href="fidelityfeed.html"></a>
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+          <figure class="project-img grid-item"><img src="home-images/wm_cover.png" alt="sample115"/>
+              <figcaption>
+                <h5><span class="fa fa-lock"></span>150+ Icon Set & Design System</h5>
+                <h6>Iconography, Design System Creation, Consulting, Finance</h6>
+              </figcaption><a href="wm.html"></a>
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <figure class="project-img grid-item"><img src="home-images/insurance_cover4.jpg" alt="sample115"/>
+              <figcaption>
+                <h5><span class="fa fa-lock"></span>Insurance Gamification</h5>
+                <h6>Design Sprint, Gamification, Prototyping, Insurance</h6>
+              </figcaption><a href="insurancegamification.html"></a>
+          </figure>
+        </div>
 
-      <figure class="project-img grid-item"><img src="home-images/virtual_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Virtual Realty Vector</h5>
-          <h6>Freelance, Vector Illustration</h6>
-        </figcaption><a href="vector.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/creditscore_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Understanding Credit Scores</h5>
-          <h6>E-Learning, Web Design, Web Development, Game</h6>
-        </figcaption><a href="creditscore.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/panic_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Panic at the Disco Box Set</h5>
-          <h6>Print, Typography, Book Design, Book Making</h6>
-        </figcaption><a href="panicbook.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/jungle_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Jungle City</h5>
-          <h6>Freelance, Web Design, Vector Illustration</h6>
-        </figcaption><a href="jungle.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/mm_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Mammoth Mountain Branding</h5>
-          <h6>Interactive Logo Design, Branding, Animation</h6>
-        </figcaption><a href="mammothmountain.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/lemon_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Recipe Cards</h5>
-          <h6>Print, Packaging</h6>
-        </figcaption><a href="lemonrecipecards.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/quote_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Fidelity Investments Quote</h5>
-          <h6>Mobile Design</h6>
-        </figcaption><a href="quote.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/amor_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Amor & Explore</h5>
-          <h6>Editorial Design, Web Design, Web Development</h6>
-        </figcaption><a href="amorexplore.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/myflix_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>MyFlix</h5>
-          <h6>Mobile Design</h6>
-        </figcaption><a href="myflix.html"></a>
-      </figure>
 
-      <figure class="project-img grid-item"><img src="home-images/words_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Expressive Book Design</h5>
-          <h6>Print, Typography, Book Design, Book Making</h6>
-        </figcaption><a href="ilikewords.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/musicposter_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Poster Design</h5>
-          <h6>Print, Poster Design, Vector Illustration</h6>
-        </figcaption><a href="musicposter.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/harryhoudini_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Typographic Monument</h5>
-          <h6>Typography, Sculpture</h6>
-        </figcaption><a href="typographicmonument.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/visualdatabase_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>100 Movies Dataset</h5>
-          <h6>Data Visualization</h6>
-        </figcaption><a href="visualdatabase.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/cake_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Wedding Cake Box</h5>
-          <h6>Packaging, Printing, Craft</h6>
-        </figcaption><a href="cake.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/cereal_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>First Things First</h5>
-          <h6>Print, Poster Design, Photography, Video</h6>
-        </figcaption><a href="firstthingsfirst.html"></a>
-      </figure>
 
-      <figure class="project-img grid-item"><img src="home-images/celiac_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Nutrition Book</h5>
-          <h6>Print, Typography, Book Design, Book Making, Illustration</h6>
-        </figcaption><a href="tenthings.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/hawkeye_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Onomatopoeia Animation</h5>
-          <h6>Animation, Video, After Effects</h6>
-        </figcaption><a href="hawkeye.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/elements_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>The Elements Of Style</h5>
-          <h6>Print, Book Design, Book Making, Typography, Laser Cutting</h6>
-        </figcaption><a href="theelementsofstyle.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/widget-cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Fidelity Investments Widget</h5>
-          <h6>Mobile Design, Widget, V1 Fidelity App</h6>
-        </figcaption><a href="ioswidget.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/changewise_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Changewise</h5>
-          <h6>Service Design, Group Project, Animation, After Effects</h6>
-        </figcaption><a href="changewise.html"></a>
-      </figure>
-      <figure class="project-img grid-item"><img src="home-images/code_cover.jpg" alt="sample115"/>
-        <figcaption>
-          <h5>Various Coding Projects</h5>
-          <h6>Web Development, Web Design</h6>
-        </figcaption><a href="codingprojects.html"></a>
-      </figure>
+      <!-- Two Projects Per Row -->
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <figure class="project-img grid-item"><img src="home-images/quote_cover.jpg" alt="sample115"/>
+            <figcaption>
+              <h5>Fidelity Investments Quote</h5>
+              <h6>Mobile Design</h6>
+            </figcaption><a href="quote.html"></a>
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <figure class="project-img grid-item"><img src="home-images/liaison-cover.jpg" alt="sample114"/>
+            <figcaption>
+              <h5>Degree Program Search</h5>
+              <h6>Web Design, Application Re-Design, Style Guide Creation</h6>
+            </figcaption><a href="liaison.html"></a>
+          </figure>
+        </div>
+
+
+      <!-- Three Projects Per Row -->
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <figure class="project-img grid-item"><img src="home-images/july_cover.jpg" alt="sample116"/>
+            <figcaption>
+              <h5>July Camp</h5>
+              <h6>Freelance, E-Commerce, Web Design</h6>
+            </figcaption><a href="julycamp.html"></a>
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+          <figure class="project-img grid-item"><img src="home-images/oneup_cover.jpg" alt="sample114"/>
+            <figcaption>
+              <h5>One Up</h5>
+              <h6>Augmented Reality, Mobile Design, Gamification</h6>
+            </figcaption><a href="oneup.html"></a>
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+          <figure class="project-img grid-item"><img src="home-images/eathere_cover.jpg" alt="sample115"/>
+            <figcaption>
+              <h5>Eat Here App</h5>
+              <h6>Mobile Design, User Research</h6>
+            </figcaption><a href="eathere.html"></a>
+          </figure>
+        </div>
+
+
+      <!-- Two Projects Per Row -->
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <figure class="project-img grid-item"><img src="home-images/creditscore_cover.jpg" alt="sample115"/>
+            <figcaption>
+              <h5>Understanding Credit Scores</h5>
+              <h6>E-Learning, Web Design, Web Development, Game</h6>
+            </figcaption><a href="creditscore.html"></a>
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <figure class="project-img grid-item"><img src="home-images/zelda-cover.jpg" alt="sample114"/>
+            <figcaption>
+              <h5>Parallax Fashion Runway</h5>
+              <h6>Parallax Web Development, Web Design,  Fashion, Freelance</h6>
+            </figcaption><a href="zelda.html"></a>
+          </figure>
+        </div>
+
+
+      <!-- Three Projects Per Row -->
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+          <figure class="project-img grid-item"><img src="home-images/jungle_cover.jpg" alt="sample115"/>
+            <figcaption>
+              <h5>Jungle City</h5>
+              <h6>Freelance, Web Design, Vector Illustration</h6>
+            </figcaption><a href="jungle.html"></a>
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <figure class="project-img grid-item"><img src="home-images/myflix_cover.jpg" alt="sample115"/>
+            <figcaption>
+              <h5>MyFlix</h5>
+              <h6>Mobile Design, Design Concept</h6>
+            </figcaption><a href="myflix.html"></a>
+          </figure>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+          <figure class="project-img grid-item"><img src="home-images/widget-cover.jpg" alt="sample115"/>
+            <figcaption>
+              <h5>Fidelity Investments Widget</h5>
+              <h6>Mobile Design, Widget, V1 Fidelity App</h6>
+            </figcaption><a href="ioswidget.html"></a>
+          </figure>
+        </div>
+      </div>
     </main>
- <!--
-      <a id='One_up' href= "oneup.html"><img alt="gf1" src="images/one_up/cover.jpg"/></a>
-      <a id='July Camp' href= "julycamp.html"><img alt="gf1" src="images/july_camp/cover.jpg"/></a>
-      <a id='Fidelity Feed' href= "fidelityfeed.html"><img alt="gf1" src="images/fidelity_feed/cover.jpg"/></a>
-      <a id='vector' href= "vector.html"><img alt="gf1" src="images/vector/cover.jpg"/></a>
-      <a id='panic_book' href= "panicbook.html"><img alt="gf1" src="images/panic_book/panic_cover.jpg"/></a>
-      <a id='Jungle' href= "jungle.html"><img alt="gf1" src="images/jungle/cover.jpg"/></a>
-      <a id='lemon' href= "lemonrecipecards.html"><img alt="lemon1" src="images/lemon_recipe_cards/lemon_cover.jpg"/></a>
-      <a id='amorexplore' href= "amorexplore.html"><img alt="book" src="images/amor_explore/cover.png"/></a>
-      <a id='quote' href= "quote.html"><img alt="gf1" src="images/quote/cover.jpg"/></a>
-      <a id='Mammoth' href= "mammothmountain.html"><img alt="gf1" src="images/mammoth_mountain/cover.jpg"/></a>
-      <a id='Eat_here' href= "eathere.html"><img alt="gf1" src="images/eat_here/cover.jpg"/></a>
-      <a id='credit_score' href= "creditscore.html"><img alt="gf1" src="images/credit_score/creditscore_cover.jpg"/></a>
-      <a id='myflix' href= "myflix.html"><img alt="book" src="images/myflix/myflix_cover.jpg"/></a>
-      <a id='typographic monument' href= "typographicmonument.html"><img alt="harryhoudini" src="images/type_monument/harryhoudini_low.jpg"/></a>
-      <a id='visual_database' href= "visualdatabase.html"><img alt="database" src="images/visual_database/visual_database_cover.jpg"/></a>
-      <a id='music' href= "musicposter.html"><img alt="music1" src="images/music_poster/musiccropped_low.jpg"/></a>
-      <a id='i_like_words' href= "ilikewords.html"><img alt="gf1" src="images/i_like_words/ilikewords_cover2.jpg"/></a>
-      <a id='first_things_first' href= "firstthingsfirst.html"><img alt="posters" src="images/first_things_first/cerealcover_low.jpg"/></a>
-      <a id='cake' href= "cake.html"><img alt="cake" src="images/cake/cake_cover.jpg"/></a>
-      <a id='ten_things' href= "tenthings.html"><img alt="gf1" src="images/ten_things/celiaccover.jpg"/></a>
-      <a id='onomatopoeia' href= "hawkeye.html"><img alt="animation" src="images/hawkeye/hawkeye_cover.jpg"/></a>
-      <a id='theElements' href= "theelementsofstyle.html"><img alt="book" src="images/the_elements_of_style/elements.jpg"/></a>
-      <a id='iOS Widget' href= "ioswidget.html"><img alt="gf1" src="images/ios_widget/cover.jpg"/></a>
-      <a id='changewise' href= "changewise.html"><img alt="book" src="images/changewise/changewise.jpg"/></a>
-  -->
-
-
-    <footer>
-      <section class="row">
-        <section class="col-12 center">
-          <a class="emailMe" href="mailto:jeparanay@comcast.net?Subject=Hello!" target="_top"> <img class="icon2" src="images/about/mail-white.svg" alt=""> <p>Say Hello!</p></a>
-
-          <a href="https://www.linkedin.com/in/juliaparanay/" target="_blank"><img class="icon" src="images/about/linkedin-white.svg" alt="LinkedIn"></a>
-          <a href="https://www.instagram.com/jeparanay/" target="_blank"><img class="icon" src="images/about/instagram-white.svg" alt="Instagram"></a>
-          <a href="https://www.behance.net/JuliaParanay" target="_blank"><img class="icon" src="images/about/behance-white.svg" alt="Behance"></a>
-          <a href="https://www.facebook.com/jeparanay" target="_blank"><img class="icon" src="images/about/facebook-white.svg" alt="Facebook"></a>
-        </section>
-      </section>
-      <section class="footer-text">
-        <section class="col-12 center">
-          <h6>Website designed and developed by Julia Paranay</h6>
-        </section>
-      </section>
-    </footer>
+    <footer-component></footer-component>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="index.js"></script>
-	</body>
+  </body>
 </html>

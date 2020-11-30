@@ -1,50 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fidelity Quote</title>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  	<title>Fidelity Investments Quote</title>
     <meta name="viewport" content="width=device-width"> <!-- Corrects device width for Mobile -->
-    <!--
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800&display=swap" rel="stylesheet">
-  -->
+	  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <header class="header">
-      <div class="moveover">
-        <h1>Julia Paranay</h1>
-    		<nav class='main_nav'>
-    			<ul>
-    				<li> <a class='work' href="index.html">Work</a></li>
-            <li> <a class='Feed' href="feed.html">Feed</a></li>
-            <li> <a class='about' href="about.html">About</a></li>
-            <li> <a class='resume' href="images/resume/Resume_Julia_Paranay.pdf" target="_blank">Resume</a></li>
-    			</ul>
-    		</nav>
-      </div>
-      <div class="hamburger">
-				<div class="line"></div>
-				<div class="line"></div>
-				<div class="line"></div>
-			</div>
-    </header>
-    <section id="scroll-section" class="scroll">
+
+<!-- Header Component -->
+  	<header-component></header-component>
+
+<!-- Scroll Section -->
+   <div id="scroll-section" class="scroll">
       <div id="scrolldown">
         <a href="#main"><span></span>Scroll</a>
       </div>
-    </section>
+   </div>
+
+<!-- Background Vid/Image -->
     <img class="fullscreen-img" src="images/quote/quote-web2.jpg" alt="Fidelity Quote">
-    <main id="main">
-      <section class="row">
-        <section class="col-6 center">
-          <h2>The Fidelity Quote Section</h2>
-          <p>
-            During our re-design phase of the Fidelity Mobile App, I lead the design for the
+
+<!-- Main Content -->
+    <main id="main" class="pt-5 container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-xl-6 pb-5">
+          <h2 class="text-center pb-3">The Fidelity Quote Section</h2>
+          <p class="pb-3">
+            During our re-design phase of the Fidelity Mobile App, I lead the re-design for the
             Quote section. The process for re-designing this section included: meeting with the
             business team to figure out project goals and requirements for each quote type, bringing
             concepts to final designs, building out prototypes to test specific interactions,
@@ -52,93 +40,104 @@
             perfect product. Shown here are the designs for Equity Quotes, but check out the
             Fidelity Mobile App by downloading it on your mobile device to view the other quote designs.
           </p>
-        </section>
-        <section class="col-6 center">
-          <section class="links">
-            <h3>Check out the iPhone and Android Apps</h3>
+          <div class="links text-center">
             <ul>
               <li><a style="color:#00b0b3;" href="https://itunes.apple.com/us/app/fidelity-investments/id348177453?mt=8">Fidelity on Itunes</a></li>
               <li><a style="color:#00b0b3;" href="https://play.google.com/store/apps/details?id=com.fidelity.android&hl=en">Fidelity on the Google Play Store</a></li>
             </ul>
-          </section>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>Quote Process</h3>
-          <p>
-            An example of a prototype and mockup for adding the trade functionality to iOS and Android designs for quote.
-          </p>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12">
-          <video width="100%" height="auto" autoplay muted loop>
-            <source src="images/quote/quote_trade_iOS.mp4" type="video/mp4">
-          </video>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12">
-          <img src="images/quote/fab.png" alt="quote">
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>Final Quote</h3>
-          <p>
-            The final designs of the quote section for iOS and Android. The designs are quite similar but have a few subtle differences to adhere to their platform style.
-          </p>
-        </section>
-      </section>
-      <section class="row center">
-        <section class="col-1">
-        </section>
-        <section class="col-5">
-          <img style="padding-left: 25%; padding-right: 5%;" alt="quote" src="images/quote/ios.png"/>
-        </section>
-        <section class="col-5">
-          <img style="padding-right: 25%; padding-left: 5%;" alt="quote" src="images/quote/android.png"/>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-2 disappear"></section>
-        <section class="col-4 project-info-col-6">
+          </div>
+        </div>
+      </div>
+
+
+<!-- Section Intro Text -->
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-md-8 col-xl-6">
+          <h3 class="text-center mb-3">Quote Process</h3>
+            <p>
+              An example of a prototype and mockup for adding the trade functionality to iOS and Android designs for quote.
+            </p>
+         </div>
+       </div>
+
+<!-- Single Column -->
+       <div class="row">
+         <div class="col-12 offset-md-1 col-md-10 pb-5">
+            <video class="pb-5" width="100%" height="auto" autoplay muted loop>
+              <source src="images/quote/quote_trade_iOS.mp4" type="video/mp4">
+            </video>
+            <img src="images/quote/fab.png" alt="quote">
+         </div>
+       </div>
+
+<!-- Section Intro Text -->
+       <div class="row justify-content-center pb-5">
+         <div class="col-12 col-md-8 col-xl-6">
+           <h3 class="text-center mb-3">Final Quote</h3>
+            <p>
+              The final designs of the quote section for iOS and Android. The designs are quite similar but have a few subtle differences to adhere to their platform style.
+            </p>
+         </div>
+       </div>
+
+<!-- Side By Side -->
+       <div class="row">
+         <div class="col-6 offset-md-1 col-md-5 pb-5">
+            <img style="padding-left: 25%; padding-right: 5%;" alt="quote" src="images/quote/ios.png"/>
+         </div>
+         <div class="col-6 col-md-5 pb-5">
+            <img style="padding-right: 25%; padding-left: 5%;" alt="quote" src="images/quote/android.png"/>
+         </div>
+       </div>
+
+<!-- End of Main Div -->
+   </main>
+
+<!-- Info & Materials -->
+      <div class="row container-fluid">
+        <div class="col-6 offset-md-1 col-md-5 offset-lg-2 col-lg-4">
           <h3>Project Information</h3>
-          <p>Mobile App Redesign</p>
-          <p>Fidelity Quote</p>
-          <p>Fidelity Investments</p>
-          <p>2015-2017</p>
-        </section>
-        <section class="col-4 project-info-col-6">
+          <ul>
+            <li>Mobile App Redesign</li>
+            <li>Fidelity Quote</li>
+            <li>Fidelity Investments</li>
+            <li>2015-2017</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-5 col-lg-4">
           <h3>Materials & Methods</h3>
-          <p>Wireframing, Lab studies, Principle for prototyping, Adobe Illustrator, After Effects, Devices for Testing</p>
-        </section>
-      </section>
-      <section>
-        <a class="previous" href="lemonrecipecards.html">Last Project</a>
-      </section>
-      <section>
-        <a class="next" href="amorexplore.html">Next Project</a>
-      </section>
-      <footer>
-        <section class="row">
-          <section class="col-12 center">
-            <a class="emailMe" href="mailto:jeparanay@comcast.net?Subject=Hello!" target="_top"> <img class="icon2" src="images/about/mail-white.svg" alt=""> <p>Say Hello!</p></a>
-            <a href="https://www.linkedin.com/in/juliaparanay/" target="_blank"><img class="icon" src="images/about/linkedin-white.svg" alt="LinkedIn"></a>
-            <a href="https://www.instagram.com/jeparanay/" target="_blank"><img class="icon" src="images/about/instagram-white.svg" alt="Instagram"></a>
-            <a href="https://www.behance.net/JuliaParanay" target="_blank"><img class="icon" src="images/about/behance-white.svg" alt="Behance"></a>
-            <a href="https://www.facebook.com/jeparanay" target="_blank"><img class="icon" src="images/about/facebook-white.svg" alt="Facebook"></a>
-          </section>
-        </section>
-        <section class="footer-text">
-          <section class="col-12 center">
-            <h6>Website designed and developed by Julia Paranay</h6>
-          </section>
-        </section>
-    	</footer>
-    </main>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="index.js"></script>
-  </body>
-</html>
+          <ul>
+            <div class="row no-gutters">
+              <div class="col-6">
+                <li>Wireframing</li>
+                <li>Lab studies</li>
+                <li>Principle Prototype</li>
+              </div>
+              <div class="col-6">
+                <li>Adobe Illustrator</li>
+                <li>After Effects</li>
+                <li>Testing across devices</li>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+<!-- Next/Last Project -->
+      <div>
+        <a class="previous" href="insurancegamification.html">Last Project</a>
+      </div>
+      <div>
+        <a class="next" href="liaison.html">Next Project</a>
+      </div>
+
+<!-- Footer -->
+      <footer-component></footer-component>
+
+<!-- Script Tags -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+      <script src="index.js"></script>
+    </body>
+  </html>

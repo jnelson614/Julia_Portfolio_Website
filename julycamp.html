@@ -1,115 +1,119 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>July Camp E-Commerce</title>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  	<title>July Camp E-Commerce</title>
     <meta name="viewport" content="width=device-width"> <!-- Corrects device width for Mobile -->
-    <!--
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800&display=swap" rel="stylesheet">
-  -->
+	  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
-  	<header class="header">
-      <div class="moveover">
-        <h1>Julia Paranay</h1>
-  			<nav class='main_nav'>
-  				<ul>
-  					<li> <a class='work' href="index.html">Work</a></li>
-            <li> <a class='Feed' href="feed.html">Feed</a></li>
-            <li> <a class='about' href="about.html">About</a></li>
-            <li> <a class='resume' href="images/resume/Resume_Julia_Paranay.pdf" target="_blank">Resume</a></li>
-  				</ul>
-  			</nav>
-      </div>
-      <div class="hamburger">
-				<div class="line"></div>
-				<div class="line"></div>
-				<div class="line"></div>
-			</div>
-  	</header>
-    <section id="scroll-section" class="scroll">
+
+<!-- Header Component -->
+    <header-component></header-component>
+
+<!-- Scroll Section -->
+    <div id="scroll-section" class="scroll">
       <div id="scrolldown">
         <a href="#main"><span></span>Scroll</a>
       </div>
-    </section>
+    </div>
+
+<!-- Background Vid/Image -->
     <img class="fullscreen-img" alt="July Camp" src="images/july_camp/jc-web.jpg"/>
-    <main id="main">
-      <section class="row">
-        <section class="col-6 center">
-          <h2>July Camp E-Commerce</h2>
+
+<!-- Top Content -->
+    <main id="main" class="pt-5 container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-xl-6 pb-5">
+          <h2 class="text-center pb-3">July Camp E-Commerce</h2>
           <p>
             July Camp Design hired me to design an e-commerce website to feature their
             merchandise. After deciding on one of three sketch concepts, I built out designs and
             a style guide for a responsive e-commerce website. After the designs and specs were finalized
             I handed off the project to the developer.
           </p>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
+       </div>
+
+<!-- Single Image -->
+      <div class="row">
+       <div class="col-12 offset-md-1 col-md-5 pb-5">
+          <img class="box-shadow2 mb-5" alt="JC" src="images/july_camp/jc-1.jpg"/>
+          <img class="box-shadow2 mb-5" alt="JC" src="images/july_camp/jc-2.jpg"/>
+          <img class="box-shadow2 mb-5" alt="JC" src="images/july_camp/jc-3.1.jpg"/>
+        </div>
+        <div class="col-12 col-md-5 pb-5">
+          <img class="box-shadow2 mb-5" alt="JC" src="images/july_camp/jc-3.jpg"/>
+          <img class="box-shadow2 mb-5" alt="JC" src="images/july_camp/jc-4.jpg"/>
+          <img class="box-shadow2 mb-5" alt="JC" src="images/july_camp/jc-5.jpg"/>
           <img alt="JulyCamp"  src="images/july_camp/jc2.gif"/>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center ">
-          <img class="box-shadow2" alt="JC" src="images/july_camp/jc-1.jpg"/>
-          <img class="box-shadow2" alt="JC" src="images/july_camp/jc-2.jpg"/>
-          <img class="box-shadow2" alt="JC" src="images/july_camp/jc-3.1.jpg"/>
-          <img class="box-shadow2" alt="JC" src="images/july_camp/jc-3.jpg"/>
-          <img class="box-shadow2" alt="JC" src="images/july_camp/jc-4.jpg"/>
-          <img class="box-shadow2" alt="JC" src="images/july_camp/jc-5.jpg"/>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12">
+        </div>
+      </div>
+
+<!-- Single Image (gif)-->
+      <div class="row">
+
+      </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
           <video width="100%" height="auto" autoplay muted loop>
             <source src="images/july_camp/responsive-july-camp.mp4" type="video/mp4">
           </video>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-2 disappear"></section>
-        <section class="col-4 project-info-col-6">
-          <h3>Project Information</h3>
-          <p>E-Commerce Website</p>
-          <p>July Camp Design</p>
-          <p>Freelance</p>
-          <p>2016</p>
-        </section>
-        <section class="col-4 project-info-col-6">
-          <h3>Materials & Methods</h3>
-          <p>Project Planning, Concepting, Wireframing, Sketching, Design in Adobe Illustrator, Specs, Responsive Design</p>
-        </section>
-      </section>
-      <section>
-        <a class="previous" href="oneup.html">Last Project</a>
-      </section>
-      <section>
-        <a class="next" href="fidelityfeed.html">Next Project</a>
-      </section>
-      <footer>
-        <section class="row">
-          <section class="col-12 center">
-            <a class="emailMe" href="mailto:jeparanay@comcast.net?Subject=Hello!" target="_top"> <img class="icon2" src="images/about/mail-white.svg" alt=""> <p>Say Hello!</p></a>
-            <a href="https://www.linkedin.com/in/juliaparanay/" target="_blank"><img class="icon" src="images/about/linkedin-white.svg" alt="LinkedIn"></a>
-            <a href="https://www.instagram.com/jeparanay/" target="_blank"><img class="icon" src="images/about/instagram-white.svg" alt="Instagram"></a>
-            <a href="https://www.behance.net/JuliaParanay" target="_blank"><img class="icon" src="images/about/behance-white.svg" alt="Behance"></a>
-            <a href="https://www.facebook.com/jeparanay" target="_blank"><img class="icon" src="images/about/facebook-white.svg" alt="Facebook"></a>
-          </section>
-        </section>
-        <section class="footer-text">
-          <section class="col-12 center">
-            <h6>Website designed and developed by Julia Paranay</h6>
-          </section>
-        </section>
-    	</footer>
-    </main>
+        </div>
+       </div>
+
+<!-- End of Main Div -->
+     </div>
+   </main>
+
+<!-- Info & Materials -->
+      <div class="row container-fluid">
+       <div class="col-6 offset-md-1 col-md-5 offset-lg-2 col-lg-4">
+         <h3>Project Information</h3>
+         <ul>
+           <li>E-Commerce Website</li>
+           <li>July Camp Design</li>
+           <li>Freelance</li>
+           <li>2016</li>
+         </ul>
+       </div>
+       <div class="col-6 col-md-5 col-lg-4">
+         <h3>Materials & Methods</h3>
+         <ul>
+           <div class="row no-gutters">
+             <div class="col-6">
+               <li>Project Planning</li>
+               <li>Concepting</li>
+               <li>Wireframing</li>
+             </div>
+             <div class="col-6">
+               <li>Sketching</li>
+               <li>Adobe Illustrator</li>
+               <li>Responsive Design</li>
+             </div>
+           </div>
+         </ul>
+       </div>
+      </div>
+
+<!-- Next/Last Project -->
+      <div>
+        <a class="previous" href="liaison.html">Last Project</a>
+      </div>
+      <div>
+        <a class="next" href="oneup.html">Next Project</a>
+      </div>
+
+<!-- Footer -->
+    <footer-component></footer-component>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>

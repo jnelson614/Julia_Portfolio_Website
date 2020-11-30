@@ -2,122 +2,127 @@
 <html>
   <head>
   	<title>Liaison International Program Search</title>
-	  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
     <meta name="viewport" content="width=device-width"> <!-- Corrects device width for Mobile -->
-    <!--
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800&display=swap" rel="stylesheet">
-  -->
+	  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
-  	<header class="header">
-      <section class="moveover">
-  			<h1>Julia Paranay</h1>
-  			<nav class='main_nav'>
-  				<ul>
-  					<li> <a class='work' href="index.html">Work</a></li>
-            <li> <a class='Feed' href="feed.html">Feed</a></li>
-            <li> <a class='about' href="about.html">About</a></li>
-            <li> <a class='resume' href="images/resume/Resume_Julia_Paranay.pdf" target="_blank">Resume</a></li>
-  				</ul>
-  			</nav>
-      </section>
-      <div class="hamburger">
-				<div class="line"></div>
-				<div class="line"></div>
-				<div class="line"></div>
-			</div>
-  	</header>
-    <section id="scroll-section" class="scroll">
+
+<!-- Header Component -->
+    <header-component></header-component>
+
+<!-- Scroll Section -->
+    <div id="scroll-section" class="scroll">
       <div id="scrolldown">
         <a href="#main"><span></span>Scroll</a>
       </div>
-    </section>
+    </div>
+
+<!-- Background Vid/Image -->
     <img class="fullscreen-img" alt="Liaison International" src="images/liaison/liaison.jpg"/>
-    <main id="main">
-      <section class="row">
-        <section class="col-6 center">
-          <h2>About Liaison International</h2>
-          <p>
-            Liaison International works with college admission offices and provides them with resources
-            to better the admissions process as well as their applicants experience. Liaison's Applicant portal
-            is used by colleges
-            across the country. It allows students applying for Masters and Undergraduate programs to search
-            and apply to multiple programs at once using the same application.
+
+<!-- Main Content -->
+    <main id="main" class="pt-5 container-fluid">
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-md-8 col-xl-6">
+          <h2 class="text-center pb-3">About Liaison International</h2>
+          <p class="pb-3">
+          Liaison International works with college admission offices and provides them with resources
+          to better the admissions process as well as their applicants experience. Liaison's Applicant portal
+          is used by colleges
+          across the country. It allows students applying for Masters and Undergraduate programs to search
+          and apply to multiple programs at once using the same application.
           </p>
-        </section>
-        <section class="col-6 center links">
-            <h3>Examples of our Applicant Portals</h3>
-            <ul>
-              <li><a href="https://calstate.liaisoncas.com/applicant-ux/#/login">California State University - Apply</a></li>
-              <li><a href="https://bu-met2018.liaisoncas.com/applicant-ux/#/login">Boston University - Apply</a></li>
-            </ul>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12 center">
-          <video class="box-shadow2" width="100%" height="auto" autoplay muted loop>
-            <source src="images/liaison/program-add.mp4" type="video/mp4">
-          </video>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>My role</h3>
-          <p>
-            At Liaison International I lead the design of our Applicant Portal through a re-design while also developing a collaborative and
+          <p class="pb-5">
+            At Liaison I lead the design of our Applicant Portal through a re-design while also developing a collaborative and
             effective work stream through creation of our style guide, design panel, and overall organization. We improved Program search
             drastically by adding elastic search, a new filtering system, new add functionality, information about each program,
             and overall improvements to the look and feel.
           </p>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>Filtering Programs</h3>
+
+          <div class="links text-center mb-5">
+            <h5>Examples of our Applicant Portals</h5>
+            <ul>
+              <li><a href="https://calstate.liaisoncas.com/applicant-ux/#/login">California State University - Apply</a></li>
+              <li><a href="https://bu-met2018.liaisoncas.com/applicant-ux/#/login">Boston University - Apply</a></li>
+            </ul>
+          </div>
+        </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
+          <video class="box-shadow2" width="100%" height="auto" autoplay muted loop>
+            <source src="images/liaison/program-add.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
+<!-- Section Intro Text -->
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-md-8 col-xl-6">
+          <h3 class="text-center mb-3">Filtering Programs</h3>
           <p>
             The Applicant portal can hold many schools and programs, so the addition of the filter was important for our users. We tested placement
             of the filter and found that students found and used it more when it was directly related to the search bar.
           </p>
-        </section>
-        <section class="col-12 center">
+        </div>
+      </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
           <video class="box-shadow2" width="100%" height="auto" autoplay muted loop>
             <source src="images/liaison/program-filter.mp4" type="video/mp4">
           </video>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>Informative Popups</h3>
-        </section>
-        <section class="col-12 center">
+        </div>
+      </div>
+
+<!-- Section Intro Text -->
+      <div class="row justify-content-center pb-5">
+        <div>
+          <h3 class="text-center">Informative Popups</h3>
+        </div>
+      </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
           <video class="box-shadow2" width="100%" height="auto" autoplay muted loop>
             <source src="images/liaison/program-delete.mp4" type="video/mp4">
           </video>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>Specs for Development</h3>
+        </div>
+      </div>
+
+<!-- Section Intro Text -->
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-md-8 col-xl-6">
+          <h3 class="text-center mb-3">Specs for Development</h3>
           <p>
             My understanding of code and development comes in handy when I create specs for the developers I work with.
             It's important to be clear and concise in spec documents. I like to check in with the developers
             through the design and spec process to make sure everyone is looped in with the work being done on both sides.
             Communication is key!
           </p>
-        </section>
-        <section class="col-12">
+        </div>
+      </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
           <img class="box-shadow2" src="images/liaison/program-spec.gif" alt="liaison">
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>Compiled Specs from my Style Guide</h3>
+        </div>
+      </div>
+
+<!-- Section Intro Text -->
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-md-8 col-xl-6">
+          <h3 class="text-center mb-3">Compiled Specs from my Style Guide</h3>
           <p>
             I created this Spec Component sheet to make it easy for designers to grab from when specing their designs.
             The styles shown below are based off the style guide I created for Liaison. I found that designers were creating multiple
@@ -126,50 +131,66 @@
             designers to put all the specs on one page. This not only sped up the process for us as designers, but
             the developers found it to be more clear, concise, and understandable.
           </p>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12">
+        </div>
+      </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
           <img class="box-shadow2" src="images/liaison/Spec-Components.jpg" alt="liaison">
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-2 disappear"></section>
-        <section class="col-4 project-info-col-6">
-          <h3>Project Information</h3>
-          <p>Website Application Re-design</p>
-          <p>Applicant Portal Program Search</p>
-          <p>Liaison International</p>
-          <p>2017-2018</p>
-        </section>
-        <section class="col-4 project-info-col-6">
-          <h3>Materials & Methods</h3>
-          <p>Project Planning, File Organization, Style Guide Creation, Wireframing, User Testing, Principle, Sketch, After Effects, Specs for Developers</p>
-        </section>
-      </section>
-      <section>
-        <a class="previous" href="eathere.html">Last Project</a>
-      </section>
-      <section>
-        <a class="next" href="vector.html">Next Project</a>
-      </section>
-      <footer>
-        <section class="row">
-          <section class="col-12 center">
-            <a class="emailMe" href="mailto:jeparanay@comcast.net?Subject=Hello!" target="_top"> <img class="icon2" src="images/about/mail-white.svg" alt=""> <p>Say Hello!</p></a>
-            <a href="https://www.linkedin.com/in/juliaparanay/" target="_blank"><img class="icon" src="images/about/linkedin-white.svg" alt="LinkedIn"></a>
-            <a href="https://www.instagram.com/jeparanay/" target="_blank"><img class="icon" src="images/about/instagram-white.svg" alt="Instagram"></a>
-            <a href="https://www.behance.net/JuliaParanay" target="_blank"><img class="icon" src="images/about/behance-white.svg" alt="Behance"></a>
-            <a href="https://www.facebook.com/jeparanay" target="_blank"><img class="icon" src="images/about/facebook-white.svg" alt="Facebook"></a>
-          </section>
-        </section>
-        <section class="footer-text">
-          <section class="col-12 center">
-            <h6>Website designed and developed by Julia Paranay</h6>
-          </section>
-        </section>
-    	</footer>
+        </div>
+      </div>
+
+<!-- End of Main Div -->
+      </div>
     </main>
+
+<!-- Info & Materials -->
+      <div class="row container-fluid">
+        <div class="col-6 offset-md-1 col-md-5 offset-lg-2 col-lg-4">
+          <h3>Project Information</h3>
+          <ul>
+            <li>Web App Re-design</li>
+            <li>App Portal Program Search</li>
+            <li>Liaison International</li>
+            <li>2017-2018</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-5 col-lg-4">
+          <h3>Materials & Methods</h3>
+          <ul>
+            <div class="row no-gutters">
+              <div class="col-6">
+                <li>Project Planning</li>
+                <li>File Organization</li>
+                <li>Style Guide Creation</li>
+                <li>Wireframing</li>
+                <li>User Testing</li>
+              </div>
+              <div class="col-6">
+                <li>Principle Prototype</li>
+                <li>Sketch</li>
+                <li>After Effects</li>
+                <li>Front End Development</li>
+                <li>Redlining</li>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+<!-- Next/Last Project -->
+      <div>
+        <a class="previous" href="quote.html">Last Project</a>
+      </div>
+      <div>
+        <a class="next" href="julycamp.html">Next Project</a>
+      </div>
+
+<!-- Footer -->
+    <footer-component></footer-component>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>

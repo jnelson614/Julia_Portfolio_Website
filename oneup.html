@@ -1,48 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>The One Up Experience</title>
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  	<title>The One Up Experience</title>
     <meta name="viewport" content="width=device-width"> <!-- Corrects device width for Mobile -->
-    <!--
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800&display=swap" rel="stylesheet">
-  -->
+	  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
-		<header class="header">
-      <div class="moveover">
-			  <h1>Julia Paranay</h1>
-				<nav class='main_nav'>
-					<ul>
-						<li> <a class='work' href="index.html">Work</a></li>
-            <li> <a class='Feed' href="feed.html">Feed</a></li>
-            <li> <a class='about' href="about.html">About</a></li>
-            <li> <a class='resume' href="images/resume/Resume_Julia_Paranay.pdf" target="_blank">Resume</a></li>
-					</ul>
-				</nav>
-      </div>
-      <div class="hamburger">
-				<div class="line"></div>
-				<div class="line"></div>
-				<div class="line"></div>
-			</div>
-		</header>
-    <section id="scroll-section" class="scroll">
+
+<!-- Header Component -->
+  	<header-component></header-component>
+
+<!-- Scroll Section -->
+    <div id="scroll-section" class="scroll">
       <div id="scrolldown">
         <a href="#main"><span></span>Scroll</a>
       </div>
-    </section>
+    </div>
+
+  <!-- Background Vid/Image -->
     <img class="fullscreen-img" alt="oneup" src="images/one_up/oneup_phone.jpg"/>
-    <main id="main">
-      <section class="row">
-        <section class="col-6 center">
-          <h2>The One Up Experience</h2>
+
+<!-- Main Content -->
+    <main id="main" class="pt-5 container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-xl-6 pb-5">
+          <h2 class="text-center pb-3">The One Up Experience</h2>
           <p>
             We all have goals, and the purpose of having these goals is to actively make our
             lives better. By working on the things we want to accomplish, we're putting
@@ -51,36 +39,46 @@
             which makes it too easy to give up. With the One Up experience, I
             solved for these issues by making the process fun, competitive, and instantly rewarding.
           </p>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12 center">
+        </div>
+      </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
           <img alt="oneup" src="images/one_up/goals2.jpg"/>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>Visualizing Goals with Augmented Reality</h3>
+        </div>
+      </div>
+
+
+<!-- Section Intro Text -->
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-md-8 col-xl-6">
+          <h3 class="text-center mb-3">Visualizing Goals with Augmented Reality</h3>
           <p>
             The One Up Experience uses augmented reality contact lenses to seamlessly keeps track of
             your goals. With this technology you can literally see progress for each of your goals as you
             go about your day.
           </p>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12">
+        </div>
+      </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
           <img alt="oneup" src="images/one_up/contact.png"/>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>Reaching your goals through Gamification</h3>
+        </div>
+      </div>
+
+
+<!-- Section Intro Text -->
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-md-8 col-xl-6">
+          <h3 class="text-center mb-3">Reaching your goals through Gamification</h3>
           <p>
             After setting up a goal, simply send the challenge to a friend or random online opponent and wait for an approval.
             The game style of the challenge can be:
           </p>
-          <ul class="list-space">
+          <ul>
             <li class="list-item">Bet based (Winner wins Money)</li>
             <li class="list-item">Object based (Winner wins Prize )</li>
             <li class="list-item">Action based (Loser does Chores)</li>
@@ -89,86 +87,115 @@
             These added game elements give you something to work towards, and it's nice
             knowing your friend is going through the same thing.
           </p>
+        </div>
+      </div>
 
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12">
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
           <img alt="oneup" src="images/one_up/one-up-1.jpg"/>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-6 center">
-          <h3>All your data entered for you</h3>
+        </div>
+      </div>
+
+
+<!-- Section Intro Text -->
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-md-8 col-xl-6">
+          <h3 class="text-center mb-3">All your data entered for you</h3>
           <p>
             After your goals have been set up,
             there's no need to put information into the app. The Augmented Reality Contact lenses
             use image recognition to keep up with your progress.
           </p>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12">
-          <img alt="oneup" src="images/one_up/one-up-2.jpg"/>
-          <img alt="oneup" src="images/one_up/one-up-3.jpg"/>
-          <img alt="oneup" src="images/one_up/one-up-4.jpg"/>
-          <img alt="oneup" src="images/one_up/one-up-5.jpg"/>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-12 middle">
-          <h3>Thanks for Viewing!</h3>
-          <p>
+        </div>
+      </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10">
+          <img class="mb-5" draggable="false" alt="oneup" src="images/one_up/one-up-2.jpg"/>
+          <img class="mb-5" draggable="false" alt="oneup" src="images/one_up/one-up-3.jpg"/>
+          <img class="mb-5" draggable="false" alt="oneup" src="images/one_up/one-up-4.jpg"/>
+          <img class="mb-5" draggable="false" alt="oneup" src="images/one_up/one-up-5.jpg"/>
+        </div>
+      </div>
+
+
+<!-- Section Intro Text -->
+      <div class="row justify-content-center pb-5">
+        <div class="col-12 col-md-8 col-xl-6">
+          <h3 class="text-center mb-3">Thanks for Viewing!</h3>
+          <p class="text-center">
             Check out the video to get a sense of the full experience.
           </p>
-        </section>
-        <section class="col-12">
+        </div>
+      </div>
+
+<!-- Single Image -->
+      <div class="row">
+        <div class="col-12 offset-md-1 col-md-10 pb-5">
           <video width="100%" height="auto" muted controls loop>
             <source src="images/one_up/oneup.mp4" type="video/mp4">
           </video>
-        </section>
-      </section>
-      <section class="row">
-        <section class="col-2 disappear"></section>
-        <section class="col-4 project-info-col-6">
-          <h3>Project Information</h3>
-          <p>Degree Project</p>
-          <p>Augmented Reality Experience</p>
-          <p>MassArt 2015</p>
-          <p>Final Semester</p>
-        </section>
-        <section class="col-4 project-info-col-6">
-          <h3>Materials & Methods</h3>
-          <p>Paper and Pencil for Wireframing and Research, Adobe Illustrator, Photoshop, After Effects, Video</p>
-        </section>
-      </section>
-      <section>
-        <a class="previous" href="codingprojects.html">Last Project</a>
-      </section>
-      <section>
-        <a class="next" href="julycamp.html">Next Project</a>
-      </section>
-      <footer>
-        <section class="row">
-          <section class="col-12 center">
-            <a class="emailMe" href="mailto:jeparanay@comcast.net?Subject=Hello!" target="_top"> <img class="icon2" src="images/about/mail-white.svg" alt=""> <p>Say Hello!</p></a>
-            <a href="https://www.linkedin.com/in/juliaparanay/" target="_blank"><img class="icon" src="images/about/linkedin-white.svg" alt="LinkedIn"></a>
-            <a href="https://www.instagram.com/jeparanay/" target="_blank"><img class="icon" src="images/about/instagram-white.svg" alt="Instagram"></a>
-            <a href="https://www.behance.net/JuliaParanay" target="_blank"><img class="icon" src="images/about/behance-white.svg" alt="Behance"></a>
-            <a href="https://www.facebook.com/jeparanay" target="_blank"><img class="icon" src="images/about/facebook-white.svg" alt="Facebook"></a>
-          </section>
-        </section>
-        <section class="footer-text">
-          <section class="col-12 center">
-            <h6>Website designed and developed by Julia Paranay</h6>
-          </section>
-        </section>
-    	</footer>
+        </div>
+      </div>
+
+<!-- End of Main -->
     </main>
+
+<!-- Info & Materials -->
+        <div class="row container-fluid">
+          <div class="col-6 offset-md-1 col-md-5 offset-lg-2 col-lg-4">
+            <h3>Project Information</h3>
+            <ul>
+              <li>Degree Project</li>
+              <li>Augmented Reality Experience</li>
+              <li>MassArt 2015</li>
+              <li>Final Semester</li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-5 col-lg-4">
+            <h3>Materials & Methods</h3>
+            <div class="row no-gutters">
+              <div class="col-6">
+                <ul>
+                  <li>Concept Design</li>
+                  <li>Research</li>
+                  <li>Sketching</li>
+                  <li>Wireframing</li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Adobe Illustrator</li>
+                  <li>Photoshop</li>
+                  <li>After Effects</li>
+                  <li>Video Editing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<!-- Next/Last Project -->
+      <div>
+        <a class="previous" href="julycamp.html">Last Project</a>
+      </div>
+      <div>
+        <a class="next" href="eathere.html">Next Project</a>
+      </div>
+
+<!-- Footer -->
+    <footer-component></footer-component>
+
+<!-- Script Tags -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
+
 
 <!--
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/TFk5AejztKs" frameborder="0" allowfullscreen></iframe>
