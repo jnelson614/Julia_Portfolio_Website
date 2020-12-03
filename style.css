@@ -561,6 +561,28 @@ MEDIA QUERIES
 }
 
 
+@media only screen
+    and (min-device-width: 375px)
+    and (min-device-height: 812px)
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) {
+
+.hamburgernav {
+	text-align: left;
+}
+
+.container-fluid {
+	padding: 0px!important;
+}
+
+.project-img {
+	padding-top:0px;
+}
+
+}
+
+
+
 
 
 /* end of all wooooo */
