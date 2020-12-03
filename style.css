@@ -502,53 +502,8 @@ about page
 
 
 
-/****************
-.hamburger {
-    width: 50px;
-    height: 28px;
-    position: absolute;
-    top: -9px;
-    right: 0;
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    z-index: 5;
-    background: rgba(255, 255, 255, 1);
-    border-radius: 4px;
-    padding-top: 4px;
-    padding-left: 13px;
-    border-radius: 20px 0px 0px 20px;
-}
-.line {
-	width: 25px;
-	height: 3px;
-	margin: 3px 0;
-	background: black;
-}
-.main_nav {
-	padding-bottom: 20px;
-	padding-top: 10px;
-	background: white;
-	height: auto;
-	display: none;
-	width: 100%;
-	height: 105vh;
-	font-size: 35px;
-	text-align: center;
-	opacity: 0;
-	background: linear-gradient(45deg, #de89d8, #d189de, #aa89de, #89b3de, #89c6de, #89d2de, #89deca, #ddde89, #dec489);
-	background-size: 300% 300%;
-	-webkit-animation: rainbow 10s ease infinite;
-	-z-animation: rainbow 10s ease infinite;
-	-o-animation: rainbow 10s ease infinite;
-	animation: rainbow 10s ease infinite;
-}
-.show {
-    position: absolute;
-    display: block;
-}
 
-*****************/
+
 
 
 

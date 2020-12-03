@@ -38,8 +38,10 @@ $(document).ready(function(){
     }
   });
 
+
+//Hamburger Nav on click
   $(".hamburger").on("click", function(){
-      $(".header .main_nav").toggleClass("show").animate({opacity:1}, "fast");
+      $(".header .hamburgernav").toggleClass("show").animate({opacity:1}, "fast");
     });
 
 
