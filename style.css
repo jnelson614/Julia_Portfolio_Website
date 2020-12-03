@@ -538,7 +538,6 @@ MEDIA QUERIES
 }
 
 @media (min-width: 992px) {
-
 #scroll-section {
 	display: block;
 }
@@ -561,6 +560,10 @@ MEDIA QUERIES
 }
 
 
+/****************
+Iphone X
+*****************/
+
 @media only screen
     and (min-device-width: 375px)
     and (min-device-height: 812px)
@@ -578,10 +581,7 @@ MEDIA QUERIES
 .project-img {
 	padding-top:0px;
 }
-
 }
-
-
 
 
 
