@@ -110,10 +110,6 @@ h1, h2, h3, h4, h5, h6, p, a {
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.display-4 {
-	font-size: 2.5rem!important;
-}
-
 .list-item {
 	text-align: left;
 	list-style-type: circle;
@@ -124,6 +120,15 @@ h1, h2, h3, h4, h5, h6, p, a {
 .container-fluid {
 	padding-right: 40px!important;
 	padding-left: 40px!important;
+}
+
+.display-4 {
+	font-size: 2rem!important;
+}
+
+.projects-push-down {
+	margin-top: 100px;
+	margin-bottom: 50px;
 }
 
 
@@ -275,11 +280,6 @@ NEXT / Last
 /**********************
 HomePage Project Photos On Hover
 ***********************/
-.projects-push-down {
-	margin-top: 200px;
-	margin-bottom: 150px;
-}
-
 .row {
 	margin: 0px!important;
 }
