@@ -415,10 +415,13 @@ HomePage Project Photos On Hover
 
 .insta-post-mt {
 	position: relative;
-	top: 200px;
+	top: 100px;
 }
 
-
+.viewer {
+	width: 100%;
+	height: 100%;
+}
 
 /****************
 PROJECT pages
@@ -475,6 +478,20 @@ iframe {
 	max-width:100%;
 	max-height: 100%;
 }
+
+
+.hidden {
+	display: none;
+}
+
+.feedImgPadding {
+	padding-bottom: 30px;
+}
+
+.imageJumpFix {
+	margin-bottom: -10px;
+}
+
 
 
 /****************
