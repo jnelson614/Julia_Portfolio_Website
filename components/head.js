@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class Head extends HTMLElement {
   constructor() {
     super();
   }
@@ -6,6 +6,8 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
 
+      <style>
+      </style>
 
       <head>
       	<title>Fidelity Feed</title>
