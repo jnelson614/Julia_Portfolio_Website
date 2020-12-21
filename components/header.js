@@ -158,7 +158,7 @@ class Header extends HTMLElement {
       </style>
       <header class="header">
   			<div class="moveover">
-        <h1 class="h6"><strong><a href="index.html">Julia Paranay</a></strong></h1>
+        <h1 class="h6"><strong>Julia Paranay</strong></h1>
   			<nav class='hamburgernav'>
   				<ul>
   					<li> <a href="index.html">Experience Design</a> </li>
