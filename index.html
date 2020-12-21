@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<title>Julia Paranay</title>
+    <title>Julia Paranay's Portfolio Website</title>
     <meta name="viewport" content="width=device-width"> <!-- Corrects device width for Mobile -->
-	  <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </head>
   <body>
   	<header-component></header-component>
@@ -39,19 +41,38 @@
           </figure>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-          <figure class="project-img grid-item"><img src="home-images/insurance_cover4.jpg" alt="sample115"/>
-              <figcaption>
-                <h5><span class="fa fa-lock"></span>Insurance Gamification</h5>
-                <h6>Design Sprint, Gamification, Prototyping, Insurance</h6>
-              </figcaption><a href="insurancegamification.html"></a>
+          <figure class="project-img grid-item"><img src="images/bose/bose_cover.jpg" alt="bose"/>
+            <figcaption>
+              <h5><span class="fa fa-lock"></span>Bose Hear</h5>
+              <h6>Mobile App Design, User Testing, Accessibility, Localization</h6>
+            </figcaption><a href="bose.html"></a>
           </figure>
+
         </div>
 
+        <!-- Two Projects Per Row -->
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <figure class="project-img grid-item"><img src="home-images/insurance_cover4.jpg" alt="sample115"/>
+                <figcaption>
+                  <h5><span class="fa fa-lock"></span>Insurance Gamification</h5>
+                  <h6>Design Sprint, Gamification, Prototyping, Insurance</h6>
+                </figcaption><a href="insurancegamification.html"></a>
+            </figure>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <figure class="project-img grid-item"><img src="home-images/liaison-cover.jpg" alt="sample114"/>
+              <figcaption>
+                <h5>Degree Program Search</h5>
+                <h6>Web Design, Application Re-Design, Style Guide Creation</h6>
+              </figcaption><a href="liaison.html"></a>
+            </figure>
+          </div>
 
 
-      <!-- Two Projects Per Row -->
+      <!-- 3 Projects Per Row -->
 
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <figure class="project-img grid-item"><img src="home-images/quote_cover.jpg" alt="sample115"/>
             <figcaption>
               <h5>Fidelity Investments Quote</h5>
@@ -59,19 +80,15 @@
             </figcaption><a href="quote.html"></a>
           </figure>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-          <figure class="project-img grid-item"><img src="home-images/liaison-cover.jpg" alt="sample114"/>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+          <figure class="project-img grid-item"><img src="images/healthcare/pia_dash.jpg" alt="sample114"/>
             <figcaption>
-              <h5>Degree Program Search</h5>
-              <h6>Web Design, Application Re-Design, Style Guide Creation</h6>
-            </figcaption><a href="liaison.html"></a>
+              <h5><span class="fa fa-lock"></span>Clinical Trial Applications</h5>
+              <h6>Application Design, Consulting, Prototyping, Healthcare</h6>
+            </figcaption><a href="healthcare.html"></a>
           </figure>
         </div>
-
-
-      <!-- Three Projects Per Row -->
-
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <figure class="project-img grid-item"><img src="home-images/july_cover.jpg" alt="sample116"/>
             <figcaption>
               <h5>July Camp</h5>
@@ -79,7 +96,12 @@
             </figcaption><a href="julycamp.html"></a>
           </figure>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+
+
+      <!-- 2 Projects Per Row -->
+
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
           <figure class="project-img grid-item"><img src="home-images/oneup_cover.jpg" alt="sample114"/>
             <figcaption>
               <h5>One Up</h5>
@@ -87,7 +109,7 @@
             </figcaption><a href="oneup.html"></a>
           </figure>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <figure class="project-img grid-item"><img src="home-images/eathere_cover.jpg" alt="sample115"/>
             <figcaption>
               <h5>Eat Here App</h5>
@@ -97,9 +119,9 @@
         </div>
 
 
-      <!-- Two Projects Per Row -->
+      <!-- 3 Projects Per Row -->
 
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
           <figure class="project-img grid-item"><img src="home-images/creditscore_cover.jpg" alt="sample115"/>
             <figcaption>
               <h5>Understanding Credit Scores</h5>
@@ -107,7 +129,7 @@
             </figcaption><a href="creditscore.html"></a>
           </figure>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <figure class="project-img grid-item"><img src="home-images/zelda-cover.jpg" alt="sample114"/>
             <figcaption>
               <h5>Parallax Fashion Runway</h5>
@@ -115,19 +137,7 @@
             </figcaption><a href="zelda.html"></a>
           </figure>
         </div>
-
-
-      <!-- Three Projects Per Row -->
-
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-          <figure class="project-img grid-item"><img src="home-images/jungle_cover.jpg" alt="sample115"/>
-            <figcaption>
-              <h5>Jungle City</h5>
-              <h6>Freelance, Web Design, Vector Illustration</h6>
-            </figcaption><a href="jungle.html"></a>
-          </figure>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
           <figure class="project-img grid-item"><img src="home-images/myflix_cover.jpg" alt="sample115"/>
             <figcaption>
               <h5>MyFlix</h5>
@@ -135,7 +145,19 @@
             </figcaption><a href="myflix.html"></a>
           </figure>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+
+
+        <!-- Three Projects Per Row -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <figure class="project-img grid-item"><img src="home-images/jungle_cover.jpg" alt="sample115"/>
+            <figcaption>
+              <h5>Jungle City</h5>
+              <h6>Freelance, Web Design, Vector Illustration</h6>
+            </figcaption><a href="jungle.html"></a>
+          </figure>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
           <figure class="project-img grid-item"><img src="home-images/widget-cover.jpg" alt="sample115"/>
             <figcaption>
               <h5>Fidelity Investments Widget</h5>
@@ -146,9 +168,6 @@
       </div>
     </main>
     <footer-component></footer-component>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
