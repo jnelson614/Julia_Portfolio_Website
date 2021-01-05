@@ -104,19 +104,19 @@ header {
   transform-origin: left center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 140px;
+  font-size: 120px;
   position: absolute;
   text-transform: uppercase;
 
 }
-.flisiuk {
+.rachael {
   left: 16%;
-  margin-top: 7%;
+  margin-top: 5%;
   transform: rotate(90deg);
   transform-origin: left center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
-  font-size: 140px;
+  font-size: 120px;
   position: absolute;
   text-transform: uppercase;
 }
@@ -628,7 +628,7 @@ header {
     left: 7%;
     margin-top: 0%;
   }
-  .flisiuk {
+  .rachael {
     left: 19%;
     margin-top: 5%;
   }
@@ -664,7 +664,7 @@ header {
     left: 10%;
     margin-top: 0%;
   }
-  .flisiuk {
+  .rachael {
     left: 23%;
     margin-top: 6%;
   }
@@ -748,7 +748,7 @@ header {
     left: 10%;
     margin-top: 0%;
   }
-  .flisiuk {
+  .rachael {
     left: 25%;
     margin-top: 7%;
   }
@@ -877,7 +877,7 @@ header {
     margin-top: 0%;
     font-size: 120px;
   }
-  .flisiuk {
+  .rachael {
     left: 25%;
     margin-top: 15%;
     font-size: 120px;
@@ -1045,7 +1045,7 @@ header {
     margin-top: 0%;
     font-size: 100px;
   }
-  .flisiuk {
+  .rachael {
     left: 25%;
     margin-top: 20%;
   }
@@ -1224,7 +1224,7 @@ header {
     margin-top: 0%;
     font-size: 90px;
   }
-  .flisiuk {
+  .rachael {
     left: 27%;
     margin-top: 20%;
     font-size: 90px;
@@ -1398,7 +1398,7 @@ header {
     margin-top: 0%;
     font-size: 80px;
   }
-  .flisiuk {
+  .rachael {
     left: 27%;
     margin-top: 20%;
     font-size: 80px;
