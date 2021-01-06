@@ -85,8 +85,6 @@ class Header extends HTMLElement {
 
       @media (max-width: 992px) {
 
-
-
               .hamburger {
                   width: 50px;
                   height: 28px;
@@ -120,7 +118,7 @@ class Header extends HTMLElement {
               	display: none;
               	width: 100%;
               	height: 105vh;
-              	font-size: 35px;
+              	font-size: 30px;
               	text-align: center;
               	opacity: 0;
               	background: linear-gradient(45deg, #de89d8, #d189de, #aa89de, #89b3de, #89c6de, #89d2de, #89deca, #ddde89, #dec489);
@@ -132,7 +130,6 @@ class Header extends HTMLElement {
               }
 
               .hamburgernav ul {
-                width:500px;
                 height:500px;
                 margin: 0 auto;
                 padding-top: 100px;
@@ -145,6 +142,7 @@ class Header extends HTMLElement {
                 position: relative;
                 background: none;
                 padding: 10px;
+                padding-bottom: 10px;
                 textalign:center;
               }
 
