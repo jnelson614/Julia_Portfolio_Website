@@ -51,10 +51,10 @@ class Footer extends HTMLElement {
               <!--
               <h6 class="text-uppercase">Thanks for Viewing</h6>
               -->
-              <p> <strong>By Day: </strong> Experience Designer at Accenture Digital Products.
-              <br><strong>By Night: </strong> Illustrating & learning React JS in my free time.</p>
+              <p> <strong>By Day: </strong> Principal Product Designer at Motional.
+              <br><strong>By Night: </strong> Illustrating, crafting, & learning 3D.</p>
               <!-- Left Col Text -->
-              <p>I'm currently available for freelance design, dev and illustration commissions. Message me for more information.</p>
+              <p>I'm currently available for freelance design and illustration commissions. Message me for more information.</p>
               <a href="mailto:jeparanay@comcast.net?Subject=Hello!" class="btn btn-dark" role="button" aria-pressed="true" target="_top"><span class="fa fa-envelope"></span>Say Hello!</a>
             </div>
             <div class="offset-lg-3 offset-md-1 col-lg-2 col-md-3 mb-md-0 mt-xs-3">

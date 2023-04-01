@@ -159,7 +159,7 @@ class Header extends HTMLElement {
         <h1 class="h6"><strong>Julia Paranay</strong></h1>
   			<nav class='hamburgernav'>
   				<ul>
-  					<li> <a href="index.html">Experience Design</a> </li>
+  					<li> <a href="index.html">Design Work</a> </li>
             <!-- <li> <a href="gdprojects.html">Other Projects</a></li> -->
             <li> <a href="feed.html">Creative Feed</a> </li>
             <li> <a href="about.html">About Me</a> </li>
