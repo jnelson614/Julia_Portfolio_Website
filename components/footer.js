@@ -77,7 +77,7 @@ class Footer extends HTMLElement {
 
               <ul class="list-unstyled">
                 <li>
-                  <a href="https://www.instagram.com/jeparanay_creative/"><span class="fa fa-instagram"></span>Creative</a>
+                  <a href="https://www.instagram.com/julabean.creative/"><span class="fa fa-instagram"></span>Creative</a>
                 </li>
                 <li>
                   <a href="https://www.instagram.com/jeparanay/"><span class="fa fa-instagram"></span>Personal</a>
