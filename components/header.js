@@ -163,7 +163,7 @@ class Header extends HTMLElement {
             <!-- <li> <a href="gdprojects.html">Other Projects</a></li> -->
             <li> <a href="feed.html">Creative Feed</a> </li>
             <li> <a href="about.html">About Me</a> </li>
-            <li> <a href="images/resume/JP_Resume_2024.pdf" target="_blank">Resume</a></li>
+            <li> <a href="images/resume/Resume_Julia_Paranay_2024.pdf" target="_blank">Resume</a></li>
   				</ul>
   			</nav>
         </div>
