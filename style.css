@@ -503,7 +503,6 @@ about page
 }
 
 .about-img {
-	height: 55vh;
 	object-position: right;
 	object-fit: cover;
 }
