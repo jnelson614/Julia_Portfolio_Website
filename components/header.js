@@ -52,6 +52,7 @@ class Header extends HTMLElement {
         position:fixed;
         width: 100%;
         height: 45px;
+        top: 0;
       }
 
       .selected {
